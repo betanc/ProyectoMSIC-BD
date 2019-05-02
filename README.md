@@ -24,7 +24,7 @@ Para implementar el control ID.AM-2,  se utiliza como marco de referencia inform
   </tr>
   <tr>
     <td class="tg-l6li">Base de datos: bsm</td>
-    <td class="tg-jpc1">Generalidades: Contiene 6 tablas que permiten a la organizacion desarrolar su core del negocio, la venta en linea de medicamentos a los usuarios registrados. <br>Motor: MySQL Community 8.0.16.<br>Tipo: Base de Datos Relacional.<br>Información sensible: Contiene datos personales y crediticios.<br>Licenciamiento del motor: GLP.<br>Tamaño: 51k</td>
+    <td class="tg-jpc1">Generalidades: Contiene 6 tablas que permiten a la organizacion desarrolar su core del negocio, la venta en linea de medicamentos a los usuarios registrados. <br>Motor: MySQL Community 8.0.16.<br>Tipo: Base de Datos Relacional.<br>Información sensible: Contiene datos personales y crediticios.<br>Licenciamiento del motor: GLP.<br>Puerto: 3306 <br>Tamaño: 51k</td>
     <td class="tg-l6li">Base de datos</td>
     <td class="tg-l6li">Proceso misional</td>
     <td class="tg-l6li">Datacenter principal<br>Servidor de base de datos</td>
@@ -32,10 +32,23 @@ Para implementar el control ID.AM-2,  se utiliza como marco de referencia inform
   </tr>
   <tr>
     <td class="tg-jpc1">Servidor de base de datos</td>
-    <td class="tg-jpc1">Servidor Debian que aloja la base de datos bsm<br>Disco duro: 500GB<br>RAM: 8GB<br><br>Número de núcleos: 4<br></td>
+    <td class="tg-jpc1">Servidor Debian que aloja la base de datos bsm<br>Disco duro: 500GB<br>RAM: 8GB<br>Número de núcleos: 4<br></td>
     <td class="tg-jpc1">Hardware</td>
     <td class="tg-jpc1">Proceso de Tecnología</td>
     <td class="tg-jpc1">Datacenter principal</td>
     
   </tr>
 </table>
+
+
+<b> ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados </b>
+
+• Identificar y documentar los flujos de datos que son permitidos desde y hacia las bases de datos.
+
+![Captura](https://user-images.githubusercontent.com/50051421/57111376-7a8d8280-6d01-11e9-9750-1b9376733d92.PNG)
+
+Quienes son los administradores:
+Desde donde se conectan
+Datos se consultan normalment:
+Flujos de datos normales: en cantidad, hora, frecuencia, origen de la consulta.
+
