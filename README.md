@@ -9,7 +9,7 @@ El motor que soporta la base de datos es MySQL Community 8.0.16 bajo un servidor
 La plataforma web no fue creada utilizando metodologías de desarrollo seguro, no se han realizado análisis de vulnerabilidades en ninguna capa (aplicación web, servidor, base de datos).
 No se realiza gestión ni monitoreo de logs en ninguna de las capas.
 
-<b> Control ID.AM-2: Las plataformas y aplicaciones de software dentro de la organización están inventariadas</b>
+<h2> Control ID.AM-2: Las plataformas y aplicaciones de software dentro de la organización están inventariadas</h2>
 
 Para implementar el control ID.AM-2,  se utilizo como marco de referencia informativa, principalmente los controles A.8.1.1, A.8.1.2 de la norma ISO/IEC 27001:2013. El resultado es el siguiente:
 
@@ -41,7 +41,7 @@ Para implementar el control ID.AM-2,  se utilizo como marco de referencia inform
 </table>
 
 
-<b> ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados </b>
+<h2> ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados </h2>
 
 • Identificar y documentar los flujos de datos que son permitidos desde y hacia las bases de datos.
 
@@ -63,7 +63,7 @@ Flujos de datos normales (en cantidad, hora, frecuencia, origen de la consulta):
 
 
 
-<b> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</b>
+<h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
 
 ![Organigrama Empresa](https://user-images.githubusercontent.com/50051493/57118541-9ad13780-6d29-11e9-83f8-bb2df73a95de.PNG)
