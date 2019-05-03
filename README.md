@@ -11,7 +11,24 @@ No se realiza gestión ni monitoreo de logs en ninguna de las capas.
 
 <h2> Control ID.AM-2: Las plataformas y aplicaciones de software dentro de la organización están inventariadas</h2>
 
-Para implementar el control ID.AM-2,  se utilizo como marco de referencia informativa, principalmente los controles A.8.1.1, A.8.1.2 de la norma ISO/IEC 27001:2013. El resultado es el siguiente:
+Para implementar el control ID.AM-2,  se utilizo como marco de referencia normativa, la NIST 800 y el Cybersecurity Framewor de NIST. 
+Se definió una metodología estándar para la administración de los activos de información, mediante la cual se incluyó:
+
+Proceso de identificación de activos: Desde el área de riesgos se establecen fechas de revisión y actualización de al identificación de activos, los activos se identificarán por el propietario o responsable de la información con el acompañamiento del área de ciberseguridad mediante reuniones metodológicas tipo lluvia de ideas en las cuales se usaran herramientas de apoyo como análisis de impacto, identificación y modelado de amenazas, riesgo operativo, tablas de retención documental, entre otras a fin. Dentro del proceso se debe identificar:
+
+<br>Nombre:</br> Nombre del activo mediante el cual se puede identificar el mismo.
+<br>Descripción:</br> Descripción sobre el contenido y relvancia del activo, así como componentes que apoyen su identificación
+<br>Tipo:</br> Definir el tipo de activo entre: 
+
+ - Software (No tangible que apoya generación, procesamiento, almacenamiento o eliminación de información.
+ - Hardware (Dispositivos físicos que apoyan la generación, procesamiento, almacenamiento o eliminación de información.
+ - Base de Datos: Información estructurada, entidades de datos con sentido y orden lógico dentro de un sistema y una relación con la organización.
+<br>Propietario del Activo:</br> Ente con responsabilidad sobre la información. proceso que lo requiere para su operación.
+<br>Ubicación:</br> Ubicación física y/o lógica del activo.
+
+ 
+ 
+El resultado es el siguiente:
 
 <table class="tg">
   <tr>
@@ -38,6 +55,20 @@ Para implementar el control ID.AM-2,  se utilizo como marco de referencia inform
     <td class="tg-jpc1">Datacenter principal</td>
     
   </tr>
+  <tr>
+    <td class="tg-jpc1">Firewall</td>
+    <td class="tg-jpc1">Dispositivo Next Generation encargado de la seeguridad de perimetro de los sistemas de información</td>
+    <td class="tg-jpc1">Hardware</td>
+    <td class="tg-jpc1">Proceso de Tecnología</td>
+    <td class="tg-jpc1">Datacenter principal</td>
+  </tr>
+   <tr>
+    <td class="tg-jpc1">Monitor de Base de datos</td>
+    <td class="tg-jpc1">Dispositivo de monitoreo encargado de consolidar registros y generar alertas de las actividades realizadas en la base de datos por los usuarios</td>
+    <td class="tg-jpc1">Hardware</td>
+    <td class="tg-jpc1">Proceso de Tecnología</td>
+    <td class="tg-jpc1">Datacenter principal</td>
+  </tr>
 </table>
 
 
@@ -58,10 +89,6 @@ Datos que se consultan normalmente: Los usuarios (compradores) pueden consultar 
 La actualizacion del listado de productos y su categoría se realiza de forma programada y autorizada por parte del Director de TI.
 
 Flujos de datos normales (en cantidad, hora, frecuencia, origen de la consulta): 
-
-
-
-
 
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
@@ -87,6 +114,20 @@ Flujos de datos normales (en cantidad, hora, frecuencia, origen de la consulta):
 <p>&nbsp;</p>
 <p><strong>Administrador de base de datos: </strong></p>
 <p>El administrador de la base de datos (DBA) garantiza el rendimiento de los componentes relacionados con los datos, entre ellos, la seguridad de los datos y la disponibilidad de bases de datos. Su organizaci&oacute;n puede hacer referencia a este rol como DBA responsable de las operaciones, DBA de la empresa o DBA del almac&eacute;n de datos.</p>
+
+<br> ROLES EN CIBERSEGURIDAD </br>
+
+<p><strong>Oficial de Seguridad: </strong></p>
+<p>Responsable del gobierno de seguridad y de impartir las directrices sobre los controles y políticas a implementar en sistemas de información y bases de datos.</p>
+
+<p><strong>Operador de Monitoreo:</strong></p>
+<p>Encargado de identificar, recibir, gestionar o reasignar alertas sobre la activcidad en sistemas de información y bases de datos.</p>
+
+<p><strong>Analista de Seguridad:</strong></p>
+<p>Responsable del apoyo en la implementaciónd e controles y poíticas, así como en gestión y soporte sobre bases de datos y sistemas de información.</p>
+
+<p><strong>Analista de ciberseguridad:</strong></p>
+<p>Responsable de la identificación de vulnerabilidades y ethical hacking sobre sistemas de información y bases de datos, así como de la respuesta a incidentes de seguridad informática.</p>
 
 <h2>Control ID.GV-4: Procesos de Gobierno y Gesti&oacute;n para la identificaci&oacute;n de los riesgos de Ciberseguridad</h2>
 
