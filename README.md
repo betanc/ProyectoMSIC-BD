@@ -159,7 +159,7 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 </ul>
 <p><strong>Estos Activos se evidencian en los controles anteriormente nombrados, y se clasifican seg&uacute;n su nivel de importancia (ver control I.AM-5)</strong></p>
 <h2><strong>2. Identificaci&oacute;n de Amenazas y Vulnerabilidades&nbsp;</strong></h2>
-<h3>Una Amenaza tiene el potencial de causar un incidente, afectando de manera directa o indirecta los activos de informaci&oacute;n de la Corporaci&oacute;n. Por ejemplo, destrucci&oacute;n no autorizada, revelaci&oacute;n, modificaci&oacute;n, corrupci&oacute;n, indisponibilidad o p&eacute;rdida de la informaci&oacute;n.</h3>
+<p><strong>Una Amenaza tiene el potencial de causar un incidente, afectando de manera directa o indirecta los activos de informaci&oacute;n de la Corporaci&oacute;n. Por ejemplo, destrucci&oacute;n no autorizada, revelaci&oacute;n, modificaci&oacute;n, corrupci&oacute;n, indisponibilidad o p&eacute;rdida de la informaci&oacute;n</strong>.</p>
 <h2><strong>3. Valoraci&oacute;n de Probabilidad e Impacto</strong></h2>
 <p><strong>A continuaci&oacute;n se identifican las valoraciones que se definieron para la Gesti&oacute;n de Riesgos de Ciberseguridad:</strong></p>
 
