@@ -150,6 +150,19 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 
 ![MetodologiaRiesgos2](https://user-images.githubusercontent.com/50051518/57166783-e2ef6900-6dc0-11e9-8177-8807d2499caa.jpg)
 
+<h2><strong>1. Identificaci&oacute;n de Activos de Informaci&oacute;n</strong></h2>
+<p><strong>La identificaci&oacute;n de Activos de Informaci&oacute;n se realiza teniendo en cuenta todos los actores que participan para dar servicio al e-commerce a nivel de:&nbsp;</strong></p>
+<ul>
+<li><strong>Infraestructura tecnol&oacute;gica</strong></li>
+<li><strong>Software, aplicaciones, bases de datos</strong></li>
+<li><strong>Personal de la operaci&oacute;n</strong></li>
+</ul>
+<p><strong>Estos Activos se evidencian en los controles anteriormente nombrados, y se clasifican seg&uacute;n su nivel de importancia (ver control I.AM-5)</strong></p>
+<h2><strong>2. Identificaci&oacute;n de Amenazas y Vulnerabilidades&nbsp;</strong></h2>
+<h3>Una Amenaza tiene el potencial de causar un incidente, afectando de manera directa o indirecta los activos de informaci&oacute;n de la Corporaci&oacute;n. Por ejemplo, destrucci&oacute;n no autorizada, revelaci&oacute;n, modificaci&oacute;n, corrupci&oacute;n, indisponibilidad o p&eacute;rdida de la informaci&oacute;n.</h3>
+<h2><strong>3. Valoraci&oacute;n de Probabilidad e Impacto</strong></h2>
+<p><strong>A continuaci&oacute;n se identifican las valoraciones que se definieron para la Gesti&oacute;n de Riesgos de Ciberseguridad:</strong></p>
+
 <ul style="list-style-type: circle;">
 <li>
 <h3><strong>Probabilidad</strong></h3>
