@@ -90,4 +90,6 @@ Flujos de datos normales (en cantidad, hora, frecuencia, origen de la consulta):
 
 <h2><span style="color: #333399;">Control ID.GV-4: Procesos de Gobierno y Gesti&oacute;n para la identificaci&oacute;n de los riesgos de Ciberseguridad</span></h2>
 
+<p> La gestión de Riesgos de Ciberseguridad se encuentra enmarcado dentro de las disposiciones de las Normas ISO 27001:2013, e ISO 31000:2018 y basado en las buenas prácticas a nivel internacional. </p>
+
 ![MetodologiaRiesgos](https://user-images.githubusercontent.com/50051518/57135673-ddb5fe00-6d6f-11e9-923e-a8ab166d40be.jpg)
