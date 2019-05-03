@@ -45,12 +45,20 @@ Para implementar el control ID.AM-2,  se utiliza como marco de referencia inform
 
 • Identificar y documentar los flujos de datos que son permitidos desde y hacia las bases de datos.
 
-![Captura](https://user-images.githubusercontent.com/50051421/57111376-7a8d8280-6d01-11e9-9750-1b9376733d92.PNG)
+En primer lugar se presenta el diagrama entidad - relacion de la base de datos "bsm", el cual permite expresar graficamente el diseño de la base de datos y la interaccion entre sus tablas.
 
-Quienes son los administradores:
-Desde donde se conectan
-Datos se consultan normalment:
-Flujos de datos normales: en cantidad, hora, frecuencia, origen de la consulta.
+![diagrama](https://user-images.githubusercontent.com/50051421/57118393-b6880e00-6d28-11e9-894c-1e85dbc6b70c.png)
+
+Quienes son los administradores: El usuario root, es administrado por el DBA ontratado directamente por la organización 
+
+Desde donde se conectan: Durante el horario laboral, el admnistrador de la based de datos se conecta desde el equipo de computo asignado, ubicado en la sede principal de la organización. Durante horarios no laborales,  tiene la opción de conectarse a través de una VPN, especialmente configurada para este fin. Este ultimo método fue aprobado para ventanas de mantenimiento y solución de incidentes.
+
+Datos que se consultan normalmente: Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo de productos en cualquier momento, a su vez el administrador de aplicaciones consulta frecuentemente las ordenes (compras) realizadas por los usuarios con el fin de iniciar el proceso de despacho. 
+
+La actualizacion del listado de productos y su categoría se realiza de forma programada y autorizada por parte del Director de TI.
+
+Flujos de datos normales (en cantidad, hora, frecuencia, origen de la consulta): 
+
 
 
 
