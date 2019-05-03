@@ -108,27 +108,12 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
 
-![Organigrama Empresa](https://user-images.githubusercontent.com/50051493/57118541-9ad13780-6d29-11e9-83f8-bb2df73a95de.PNG)
+![Estructura Organigrama](https://user-images.githubusercontent.com/50051493/57170121-40d77d00-6dd0-11e9-9079-ef508a3af1a2.png)
 
-<p><strong>Director de TI:</strong></p>
-<p>Supervisa la infraestructura de los sistemas de informaci&oacute;n dentro de la organizaci&oacute;n y es responsable de establecer los est&aacute;ndares de informaci&oacute;n para facilitar el control de la gesti&oacute;n de todos los recursos corporativos. El CIO tienen las siguientes responsabilidades:</p>
-<p>&nbsp;</p>
-<ul>
-<li>Proporcionar asesoramiento y trabajar con miembros del equipo ejecutivo para identificar c&oacute;mo la tecnolog&iacute;a de la informaci&oacute;n puede ayudar a la compa&ntilde;&iacute;a a alcanzar sus objetivos de negocio y financieros. El Directorr de TI debe desarrollar una estrategia para alcanzar esos objetivos de la empresa, mejorando los procesos, aumentando la productividad de los empleados y mejorando la calidad de servicio al cliente.</li>
-<li>Asegurar que la tecnolog&iacute;a de la informaci&oacute;n y la infraestructura de red sea compatible con las necesidades de computaci&oacute;n, procesamiento de datos y comunicaci&oacute;n de la compa&ntilde;&iacute;a. Un Director de TI debe reconocer y responder a las cambiantes necesidades de recursos de tecnolog&iacute;a, por ejemplo, tienen que desplegar infraestructura de red inal&aacute;mbrica y herramientas de colaboraci&oacute;n, como la videoconferencia de escritorio y los portales del proyecto.</li>
-<li>Desarrollar pol&iacute;ticas de seguridad que protegen la infraestructura y los datos de la empresa, al tiempo que debe garantizar la privacidad de la informaci&oacute;n personal de los empleados.</li>
-<li>Gestionar un equipo de especialistas en tecnolog&iacute;a de la informaci&oacute;n para manejar los recursos de IT de la empresa y apoyar a los usuarios departamentales. Si es necesario, un Director de TI organiza programas de formaci&oacute;n y certificaci&oacute;n para mejorar las habilidades del personal.</li>
-<li>Satisfacer las necesidades de tecnolog&iacute;a de informaci&oacute;n de la empresa dentro de los l&iacute;mites presupuestarios, a menudo bajo presi&oacute;n para reducir los costos y mantener un alto nivel de servicio a los usuarios.</li>
-</ul>
-<p>&nbsp;</p>
-<p><strong>Administrador de infraestructura:</strong></p>
-<p>El administrador del sistema gestiona y mantiene el entorno de tecnolog&iacute;as de la informaci&oacute;n y las herramientas de gesti&oacute;n de operaciones, incluidas la administraci&oacute;n de los sistemas, la gesti&oacute;n de redes y las copias de seguridad. Normalmente, el administrador del sistema tambi&eacute;n mantiene diversos componentes e infraestructuras para reutilizarlas con otras soluciones.</p>
-<p>&nbsp;</p>
-<p><strong>Administrador de aplicaciones:</strong></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong>Administrador de base de datos: </strong></p>
-<p>El administrador de la base de datos (DBA) garantiza el rendimiento de los componentes relacionados con los datos, entre ellos, la seguridad de los datos y la disponibilidad de bases de datos. Su organizaci&oacute;n puede hacer referencia a este rol como DBA responsable de las operaciones, DBA de la empresa o DBA del almac&eacute;n de datos.</p>
+
+![Imagen Usuarios Bases de Datos](https://user-images.githubusercontent.com/50051493/57170101-2ac9bc80-6dd0-11e9-88d2-1e9d1e04ef75.png)
+
+
 
 <br> ROLES EN CIBERSEGURIDAD </br>
 
