@@ -88,7 +88,8 @@ Flujos de datos normales (en cantidad, hora, frecuencia, origen de la consulta):
 <p><strong>Administrador de base de datos: </strong></p>
 <p>El administrador de la base de datos (DBA) garantiza el rendimiento de los componentes relacionados con los datos, entre ellos, la seguridad de los datos y la disponibilidad de bases de datos. Su organizaci&oacute;n puede hacer referencia a este rol como DBA responsable de las operaciones, DBA de la empresa o DBA del almac&eacute;n de datos.</p>
 
-<b> Control ID.GV-4: Procesos de Gobierno y Gestión para los riesgos de Ciberseguridad</b>
+<h2><span style="color: #333399;"><strong>Control ID.GV-4: Procesos de Gobierno y Gesti&oacute;n para la identificaci&oacute;n de los riesgos de Ciberseguridad</strong></span></h2>
+<div>&nbsp;</div>
 <p> La gestión de Riesgos de Ciberseguridad se encuentra enmarcado dentro de las disposiciones de las Normas ISO 27001:2013, e ISO 31000:2018 y basado en las buenas prácticas a nivel internacional. </p>
 
 ![MetodologiaRiesgos](https://user-images.githubusercontent.com/50051518/57135673-ddb5fe00-6d6f-11e9-923e-a8ab166d40be.jpg)
