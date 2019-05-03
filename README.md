@@ -70,8 +70,8 @@ Niveles de privilegios:
 
 <table>
   <tr>
-    <th><span style="font-weight:bold">Globales</span></th>
-    <th>se aplican al conjunto de todas las bases de datos en un servidor. Es el<br>nivel más alto de privilegio, su ámbito es el más general.</th>
+    <td><span style="font-weight:bold">Globales</span></th>
+    <td>se aplican al conjunto de todas las bases de datos en un servidor. Es el<br>nivel más alto de privilegio, su ámbito es el más general.</th>
   </tr>
   <tr>
     <td><span style="font-weight:bold">De base de datos</span></td>
