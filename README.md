@@ -74,39 +74,36 @@ El resultado es el siguiente:
 
 <h2> ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados </h2>
 
-• Identificar y documentar los flujos de datos que son permitidos desde y hacia las bases de datos.
-
 En primer lugar se presenta el diagrama entidad - relacion de la base de datos "bsm", el cual permite expresar graficamente el diseño de la base de datos y la interaccion entre sus tablas.
 
 ![diagrama](https://user-images.githubusercontent.com/50051421/57118393-b6880e00-6d28-11e9-894c-1e85dbc6b70c.png)
 
-Usuarios definidos y que particpan en el flujo de información:
 
-Adminsitrador de aplicación: Usuario con privilegios sobre la aplicación con posibilidad de lectura, escritura y modificación sobre la base de datos.
-Operador de aplicación: Usuario con permisos de lectura sobre la aplicación.
-Adminsitrador de base de datos:Superusuaruio de la base de datos.
-Usuario de consulta mercadero: Usuario con permisos de lectura desde la aplicación.
-Usuario de monitoreo Seguridad: usuario con permisos de lectura sobre datos y logs.
+A continuación se presentan los diagramas que de flujo normal de datos para cada actor del sistema (usuarios clientes y usuarios de gestión de la aplicación:
 
-Flujos de información identificados:
+<i>Flujo de datos usuarios clientes:</i>
 
-1. Ingreso de datos de dispoinibilidad de inventario y precio por parte del operador de aplicación.
-2. Registro de usuario, consulta de productos y compras a través de webservices por parte de clientes desde internet.
-3. Aprobación del proceso de compra y despacho de productos por parte del operador de la aplicación.
-4. Solución de inconvenientes con productos y solución de disputas por parte del Administrador de la aplicación.
-5. Creación de nuevos operadores de aplicación por parte del Administrador de la aplicación.
-6. Autorización y dada de alta de nuevos operadores de aplicación por parte del CISO.
-7. Manejo de estadisticas, promociones y publicación de productos por parte del usuario de mercadeo.
+Cantidad: Entre 0 y 100 usuarios logueados por dia (rango normal).<br/>
+Hora: En cualquier momento.<br/>
+Frecuencia: Entre 0 y 1000 consultas por usuario (rango normal).<br/>
+Origen de la consulta: Cualquier direccion IP pública.<br/>
 
-Quienes son los administradores: El usuario root, esta en custodia del Administrador de Bases de datos, contratado directamente por la organización 
+![flujo usuario](https://user-images.githubusercontent.com/50051421/57165004-7f167180-6dbb-11e9-9d8f-e95d9b45da80.png)
 
-Desde donde se conectan: Durante el horario laboral, el admnistrador de la base de datos se conecta desde el equipo de computo asignado, ubicado en la sede principal de la organización. Durante horarios no laborales,  tiene la opción de conectarse a través de una VPN, especialmente configurada para este fin. Este ultimo método fue aprobado para ventanas de mantenimiento y solución de incidentes.
+<i>Flujo de datos usuarios de gestión de la aplicación:</i>
 
-Datos que se consultan normalmente: Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo de productos en cualquier momento, a su vez el administrador de aplicaciones consulta frecuentemente las ordenes (compras) realizadas por los usuarios con el fin de iniciar el proceso de despacho. 
+Cantidad: Entre 1 y 3 usuarios logueados por dia (rango normal).<br/>
+Hora: entre 7:00 a.m. y 7:00 p.m.<br/>
+Frecuencia: Entre 0 y 200 consultas al día (rango normal).<br/>
+Origen de la consulta: Direcciones IP internas de la Organización.<br/>
 
-La actualizacion del listado de productos y su categoría se realiza de forma programada y autorizada por parte del Director de TI.
+![flujo gestion](https://user-images.githubusercontent.com/50051421/57165003-7e7ddb00-6dbb-11e9-8da6-3a27a43371f0.png)
 
-Flujos de datos normales (en cantidad, hora, frecuencia, origen de la consulta): 
+</i>Administradores: </i><br/>
+El usuario root de la base datos está en custodia del administrador de bases de datos, contratado directamente por la organización. Durante el horario laboral este administrador se conecta desde el equipo de computo asignado, ubicado en la sede principal de la organización. Durante horarios no laborales, tiene la opción de conectarse a través de una VPN, especialmente configurada para este fin. Este ultimo método fue aprobado con el objetivo de realizar ventanas de mantenimiento y solucionar incidentes.
+
+<i>Datos que se consultan normalmente: </i><br/>
+Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo de productos en cualquier momento, a su vez el administrador de aplicaciones consulta frecuentemente las ordenes (compras) realizadas por los usuarios con el fin de iniciar el proceso de despacho. La actualizacion del listado de productos y su categoría se realiza de forma programada e informada al Director de TI. 
 
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
@@ -151,4 +148,20 @@ Flujos de datos normales (en cantidad, hora, frecuencia, origen de la consulta):
 
 <p> La gestión de Riesgos de Ciberseguridad se encuentra enmarcado dentro de las disposiciones de las Normas ISO 27001:2013, e ISO 31000:2018 y basado en las buenas prácticas a nivel internacional. </p>
 
-![MetodologiaRiesgos](https://user-images.githubusercontent.com/50051518/57135673-ddb5fe00-6d6f-11e9-923e-a8ab166d40be.jpg)
+![MetodologiaRiesgos2](https://user-images.githubusercontent.com/50051518/57166783-e2ef6900-6dc0-11e9-8177-8807d2499caa.jpg)
+
+<ul style="list-style-type: circle;">
+<li>
+<h3><strong>Probabilidad</strong></h3>
+</li>
+</ul>
+
+![Probabilidad](https://user-images.githubusercontent.com/50051518/57166818-fd294700-6dc0-11e9-887d-f1a3ff916748.jpg)
+
+<ul style="list-style-type: circle;">
+<li>
+<h3><strong>Impacto</strong></h3>
+</li>
+</ul>
+
+![Impacto](https://user-images.githubusercontent.com/50051518/57166841-07e3dc00-6dc1-11e9-99e1-af266b33a2e9.jpg)
