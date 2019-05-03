@@ -52,3 +52,41 @@ Desde donde se conectan
 Datos se consultan normalment:
 Flujos de datos normales: en cantidad, hora, frecuencia, origen de la consulta.
 
+
+
+
+<b> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</b>
+
+Hemos usado el usuario “ root”,  que es el administrador, y que dispone de todos los privilegios de MySQL.
+
+Para conservar la integridad de los datos y de las estructuras será conveniente que sólo algunos usuarios puedan realizar determinadas tareas, y que otras, que requieren mayor conocimiento sobre las estructuras de bases de datos y tablas, sólo puedan realizarse por un número limitado y controlado de usuarios.
+
+No se pueden crear usuarios sin asignar al mismo tiempo privilegios, el crear un usuario se realiza principalmente por la necesidad de limitar las acciones que los usuarios pueden llevar a cabo. 
+
+En MySQL podemos definir diferentes tipos de usuarios y asignar determinados privilegios.
+
+Niveles de privilegios:
+
+
+<table>
+  <tr>
+    <th><span style="font-weight:bold">Globales</span></th>
+    <th>se aplican al conjunto de todas las bases de datos en un servidor. Es el<br>nivel más alto de privilegio, su ámbito es el más general.</th>
+  </tr>
+  <tr>
+    <td><span style="font-weight:bold">De base de datos</span></td>
+    <td>se refieren a bases de datos individuales, y por extensión, a todos los<br>objetos que contiene cada base de datos.</td>
+  </tr>
+  <tr>
+    <td><span style="font-weight:bold">De tabla</span></td>
+    <td>se aplican a tablas individuales, y por lo tanto, a todas las columnas de esas tabla.</td>
+  </tr>
+  <tr>
+    <td><span style="font-weight:bold">De columna</span></td>
+    <td>Es opcional y puede ser utilizado para especificar privilegios a cada columna. <br>Si los separamos por comas podemos poner una serie de lista de nombres<br>de columnas. (se aplican a una columna en una tabla concreta).</td>
+  </tr>
+  <tr>
+    <td><span style="font-weight:bold">De rutina</span></td>
+    <td>se aplican a los procedimientos almacenados.</td>
+  </tr>
+</table>
