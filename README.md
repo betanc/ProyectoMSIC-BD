@@ -110,7 +110,39 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 
 ![Organigrama Empresa](https://user-images.githubusercontent.com/50051493/57118541-9ad13780-6d29-11e9-83f8-bb2df73a95de.PNG)
 
-![Imagen Usuarios Bases de Datos](https://user-images.githubusercontent.com/50051493/57167257-c05e4f80-6dc2-11e9-9073-e94e16fce812.png)
+<p><strong>Director de TI:</strong></p>
+<p>Supervisa la infraestructura de los sistemas de informaci&oacute;n dentro de la organizaci&oacute;n y es responsable de establecer los est&aacute;ndares de informaci&oacute;n para facilitar el control de la gesti&oacute;n de todos los recursos corporativos. El CIO tienen las siguientes responsabilidades:</p>
+<p>&nbsp;</p>
+<ul>
+<li>Proporcionar asesoramiento y trabajar con miembros del equipo ejecutivo para identificar c&oacute;mo la tecnolog&iacute;a de la informaci&oacute;n puede ayudar a la compa&ntilde;&iacute;a a alcanzar sus objetivos de negocio y financieros. El Directorr de TI debe desarrollar una estrategia para alcanzar esos objetivos de la empresa, mejorando los procesos, aumentando la productividad de los empleados y mejorando la calidad de servicio al cliente.</li>
+<li>Asegurar que la tecnolog&iacute;a de la informaci&oacute;n y la infraestructura de red sea compatible con las necesidades de computaci&oacute;n, procesamiento de datos y comunicaci&oacute;n de la compa&ntilde;&iacute;a. Un Director de TI debe reconocer y responder a las cambiantes necesidades de recursos de tecnolog&iacute;a, por ejemplo, tienen que desplegar infraestructura de red inal&aacute;mbrica y herramientas de colaboraci&oacute;n, como la videoconferencia de escritorio y los portales del proyecto.</li>
+<li>Desarrollar pol&iacute;ticas de seguridad que protegen la infraestructura y los datos de la empresa, al tiempo que debe garantizar la privacidad de la informaci&oacute;n personal de los empleados.</li>
+<li>Gestionar un equipo de especialistas en tecnolog&iacute;a de la informaci&oacute;n para manejar los recursos de IT de la empresa y apoyar a los usuarios departamentales. Si es necesario, un Director de TI organiza programas de formaci&oacute;n y certificaci&oacute;n para mejorar las habilidades del personal.</li>
+<li>Satisfacer las necesidades de tecnolog&iacute;a de informaci&oacute;n de la empresa dentro de los l&iacute;mites presupuestarios, a menudo bajo presi&oacute;n para reducir los costos y mantener un alto nivel de servicio a los usuarios.</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Administrador de infraestructura:</strong></p>
+<p>El administrador del sistema gestiona y mantiene el entorno de tecnolog&iacute;as de la informaci&oacute;n y las herramientas de gesti&oacute;n de operaciones, incluidas la administraci&oacute;n de los sistemas, la gesti&oacute;n de redes y las copias de seguridad. Normalmente, el administrador del sistema tambi&eacute;n mantiene diversos componentes e infraestructuras para reutilizarlas con otras soluciones.</p>
+<p>&nbsp;</p>
+<p><strong>Administrador de aplicaciones:</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Administrador de base de datos: </strong></p>
+<p>El administrador de la base de datos (DBA) garantiza el rendimiento de los componentes relacionados con los datos, entre ellos, la seguridad de los datos y la disponibilidad de bases de datos. Su organizaci&oacute;n puede hacer referencia a este rol como DBA responsable de las operaciones, DBA de la empresa o DBA del almac&eacute;n de datos.</p>
+
+<br> ROLES EN CIBERSEGURIDAD </br>
+
+<p><strong>Oficial de Seguridad: </strong></p>
+<p>Responsable del gobierno de seguridad y de impartir las directrices sobre los controles y políticas a implementar en sistemas de información y bases de datos.</p>
+
+<p><strong>Operador de Monitoreo:</strong></p>
+<p>Encargado de identificar, recibir, gestionar o reasignar alertas sobre la activcidad en sistemas de información y bases de datos.</p>
+
+<p><strong>Analista de Seguridad:</strong></p>
+<p>Responsable del apoyo en la implementaciónd e controles y poíticas, así como en gestión y soporte sobre bases de datos y sistemas de información.</p>
+
+<p><strong>Analista de ciberseguridad:</strong></p>
+<p>Responsable de la identificación de vulnerabilidades y ethical hacking sobre sistemas de información y bases de datos, así como de la respuesta a incidentes de seguridad informática.</p>
 
 <h2>Control ID.GV-4: Procesos de Gobierno y Gesti&oacute;n para la identificaci&oacute;n de los riesgos de Ciberseguridad</h2>
 
@@ -123,6 +155,7 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 <h3><strong>Probabilidad</strong></h3>
 </li>
 </ul>
+<p>Para cada escenario de riesgo identificado se valora la probabilidad estad&iacute;stica de ocurrencia, a trav&eacute;s de una escala cuantitativa y cualitativa por cada nivel, con el fin de facilitar el proceso de evaluaci&oacute;n del mismo. Esta valoraci&oacute;n se debe realizar sin tener en cuenta los controles implementados.</p>
 
 ![Probabilidad](https://user-images.githubusercontent.com/50051518/57166818-fd294700-6dc0-11e9-887d-f1a3ff916748.jpg)
 
@@ -131,5 +164,6 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 <h3><strong>Impacto</strong></h3>
 </li>
 </ul>
+<p>El an&aacute;lisis de valoraci&oacute;n de Impacto se realiza con tres criterios definidos: reputacional, legal y/o operacional. Identificando el m&aacute;s alto de los 3, y si poseen igual valor se dejar&aacute;n todos los criterios en el escenario del riesgo con el mismo valor.</p>
 
 ![Impacto](https://user-images.githubusercontent.com/50051518/57166841-07e3dc00-6dc1-11e9-99e1-af266b33a2e9.jpg)
