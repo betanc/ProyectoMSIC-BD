@@ -107,16 +107,18 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
-
+</p>
+</p>
 ![ResponsabilidadesDBs](https://user-images.githubusercontent.com/50051493/57184644-016a6880-6e84-11e9-93c9-367f243e0350.png)
-
-
-
-
-
+</p>
+</p>
+</p>
+</p>
 
 ![USUARIOS DBS](https://user-images.githubusercontent.com/50051493/57185210-d89aa100-6e8c-11e9-9473-3f7da41569f3.png)
-
+</p>
+</p>
+</p>
 
 
 <h2>Control ID.GV-4: Procesos de Gobierno y Gesti&oacute;n para la identificaci&oacute;n de los riesgos de Ciberseguridad</h2>
