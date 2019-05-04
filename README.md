@@ -105,7 +105,12 @@ El usuario root de la base datos está en custodia del administrador de bases de
 <i>Datos que se consultan normalmente: </i><br/>
 Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo de productos en cualquier momento, a su vez el administrador de aplicaciones consulta frecuentemente las ordenes (compras) realizadas por los usuarios con el fin de iniciar el proceso de despacho. La actualizacion del listado de productos y su categoría se realiza de forma programada e informada al Director de TI. 
 
-<p><h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2></p>
+<h2> ID.AM-5: Priorización de recursos en funci&oacute;n de su clasificaci&oacute;n, criticidad y valor para la empresa. </h2>
+
+<p>La clasificación de activos de información tiene como objetivo asegurar que la información recibe los niveles de protección adecuados, ya que con base en su valor y de acuerdo a otras características particulares requiere un tipo de manejo especial.</p>
+<p>El sistema de clasificación de la información que podría definirse en la entidad se basa en las características particulares de la información, contempla la cultura y el funcionamiento interno y buscando dar cumplimiento a los requerimientos  estipulados en el item relacionado con la Gestión de Activos de los estandares 27001:2013, ISO 27002, e ISO 27005.</p>
+
+<h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
 ![ResponsabilidadesDBs](https://user-images.githubusercontent.com/50051493/57184644-016a6880-6e84-11e9-93c9-367f243e0350.png)
 
