@@ -111,8 +111,7 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 ![ResponsabilidadesDBs](https://user-images.githubusercontent.com/50051493/57184644-016a6880-6e84-11e9-93c9-367f243e0350.png)
 
 
-
-![Imagen Usuarios Bases de Datos](https://user-images.githubusercontent.com/50051493/57170101-2ac9bc80-6dd0-11e9-88d2-1e9d1e04ef75.png)
+![USUARIOS DBS](https://user-images.githubusercontent.com/50051493/57185210-d89aa100-6e8c-11e9-9473-3f7da41569f3.png)
 
 
 
