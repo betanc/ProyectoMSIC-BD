@@ -108,7 +108,7 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 <h2> ID.AM-5: Priorización de recursos en funci&oacute;n de su clasificaci&oacute;n, criticidad y valor para la empresa. </h2>
 
 <p>La clasificación de activos de información tiene como objetivo asegurar que la información recibe los niveles de protección adecuados, ya que con base en su valor y de acuerdo a otras características particulares requiere un tipo de manejo especial.</p>
-<p>El sistema de clasificación de la información que podría definirse en la entidad se basa en las características particulares de la información, contempla la cultura y el funcionamiento interno y buscando dar cumplimiento a los requerimientos  estipulados en el item relacionado con la Gestión de Activos de los estandares 27001:2013, ISO 27002, e ISO 27005.</p>
+<p>El sistema de clasificación de la información que se  definio para la empresa de E-Commerce se basa en las características particulares de la información, contempla la cultura y el funcionamiento interno y busca dar cumplimiento a los requerimientos  estipulados en el item relacionado con la Gestión de Activos de los estandares 27001:2013, ISO 27002, e ISO 27005.</p>
 
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
