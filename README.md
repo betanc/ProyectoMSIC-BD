@@ -108,26 +108,13 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
 
-![Estructura Organigrama](https://user-images.githubusercontent.com/50051493/57170121-40d77d00-6dd0-11e9-9079-ef508a3af1a2.png)
+![ResponsabilidadesDBs](https://user-images.githubusercontent.com/50051493/57184644-016a6880-6e84-11e9-93c9-367f243e0350.png)
+
 
 
 ![Imagen Usuarios Bases de Datos](https://user-images.githubusercontent.com/50051493/57170101-2ac9bc80-6dd0-11e9-88d2-1e9d1e04ef75.png)
 
 
-
-<br> ROLES EN CIBERSEGURIDAD </br>
-
-<p><strong>Oficial de Seguridad: </strong></p>
-<p>Responsable del gobierno de seguridad y de impartir las directrices sobre los controles y políticas a implementar en sistemas de información y bases de datos.</p>
-
-<p><strong>Operador de Monitoreo:</strong></p>
-<p>Encargado de identificar, recibir, gestionar o reasignar alertas sobre la activcidad en sistemas de información y bases de datos.</p>
-
-<p><strong>Analista de Seguridad:</strong></p>
-<p>Responsable del apoyo en la implementaciónd e controles y poíticas, así como en gestión y soporte sobre bases de datos y sistemas de información.</p>
-
-<p><strong>Analista de ciberseguridad:</strong></p>
-<p>Responsable de la identificación de vulnerabilidades y ethical hacking sobre sistemas de información y bases de datos, así como de la respuesta a incidentes de seguridad informática.</p>
 
 <h2>Control ID.GV-4: Procesos de Gobierno y Gesti&oacute;n para la identificaci&oacute;n de los riesgos de Ciberseguridad</h2>
 
