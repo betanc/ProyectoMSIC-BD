@@ -105,10 +105,11 @@ El usuario root de la base datos está en custodia del administrador de bases de
 <i>Datos que se consultan normalmente: </i><br/>
 Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo de productos en cualquier momento, a su vez el administrador de aplicaciones consulta frecuentemente las ordenes (compras) realizadas por los usuarios con el fin de iniciar el proceso de despacho. La actualizacion del listado de productos y su categoría se realiza de forma programada e informada al Director de TI. 
 
-<h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2><p></p>
+<h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2><p></p><br />
 
 
 ![ResponsabilidadesDBs](https://user-images.githubusercontent.com/50051493/57184644-016a6880-6e84-11e9-93c9-367f243e0350.png)<p></p>
+
 
 
 ![USUARIOS DBS](https://user-images.githubusercontent.com/50051493/57185210-d89aa100-6e8c-11e9-9473-3f7da41569f3.png) <p></p>
