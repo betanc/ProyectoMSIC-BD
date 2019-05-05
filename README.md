@@ -3,11 +3,10 @@ Proyecto materia seguridad en bases de datos MSIC
 
 <b>CONTEXTO</b>: 
 
-Empresa de E-commerce de venta de medicamentos en linea, utiliza tarjetas de crédito para los pagos, los cuales realiza a través de una plataforma externa. Los servidores están ubicados en Colombia en su propio datacenter y con administración interna. El datacenter no cumple con estándares TIER. (Incluir topología).
+Empresa de E-commerce de venta de medicamentos en linea, utiliza tarjetas de crédito para los pagos, los cuales realiza a través de una plataforma externa. Los servidores están ubicados en Colombia en su propio datacenter y con administración interna. El datacenter no cumple con estándares internacionales (TIER).
 Si bien cuentan con responsabilidades asignadas para la toma de backups, no se cuenta con un procedimiento definido y estandarizado para ello.
 El motor que soporta la base de datos es MySQL Community 8.0.16 bajo un servidor Debian. 
-La plataforma web no fue creada utilizando metodologías de desarrollo seguro, no se han realizado análisis de vulnerabilidades en ninguna capa (aplicación web, servidor, base de datos).
-No se realiza gestión ni monitoreo de logs en ninguna de las capas.
+La plataforma web no fue creada utilizando metodologías de desarrollo seguro, no se han realizado análisis de vulnerabilidades en ninguna capa (aplicación web, servidor, base de datos).No se realiza gestión ni monitoreo de logs en ninguna de las capas del sistema.
 
 <h2> Control ID.AM-2: Las plataformas y aplicaciones de software dentro de la organización están inventariadas</h2>
 
@@ -29,7 +28,6 @@ Proceso de identificación de activos: Desde el área de riesgos se establecen f
 
 <b>Ubicación:</b> Ubicación física y/o lógica del activo.
 
- 
 El resultado es el siguiente:
 
 <table class="tg">
@@ -84,10 +82,10 @@ A continuación se presenta un diagrama de arquitectura y la interacción que se
 
 De acuerdo con el diagrama de arquitectura de red, con el contexto y las necesidades de negocio planteadas, se identifican principalmente cuatro roles en la base de datos.
 - <b>Clientes/usuarios:</b> Usuarios que interactuan con la aplicación desde los servicios publicados en internet. Éstos interactuan con la base de datos desde la capa de presentación y operan como usuarios finales o consumidores de los servicios de la compañia.
-- <b>Usuarios internos:</b> Hace referencia a empleados de la compañía los cuales tienen interacción desde la capa de presentación (Servidor de aplicación) del servicio. Acceden principalmente desde la red interna y cumplen funciones como administrar la aplicación, manejar inventarios, brindar soporte a clientes, hacer consultas sobre las tablas de productos, entre otras. Dentro de esta ctegoria también se incluye personal de TI que tiene interacción o administra la aplicación y el servidor de aplicación.
+- <b>Usuarios internos:</b> Hace referencia a empleados de la compañía los cuales tienen interacción desde la capa de presentación (Servidor de aplicación) del servicio. Acceden principalmente desde la red interna y cumplen funciones como administrar la aplicación, manejar inventarios, brindar soporte a clientes, hacer consultas sobre las tablas de productos, entre otras. Dentro de esta categoría también se incluye personal de TI que tiene interacción o administra la aplicación y el servidor de aplicación.
 - <b>Administrador de Base de datos:</b> Principal responsable sobre la administración de la base de datos y sus tablas.
+El usuario administrador de la base datos está en custodia de este rol, quien es contratado directamente por la organización. Durante el horario laboral se conecta desde el equipo de computo asignado, ubicado en la sede principal de la organización. Durante horarios no laborales, tiene la opción de conectarse a través de una VPN, especialmente configurada para este fin. Este ultimo método fue aprobado con el objetivo de realizar ventanas de mantenimiento y solucionar incidentes.
 - <b>Monitoreo y seguridad:</b> Dentro de rol o roles se establecen responsbilidades de monitoreo sobre las acciones, cambios y trasacciones de la base de datos, de igual forma, consulta sobre roles y permisos de la base de datos, acciones realizadas por el administrador y la adecuada administración y continuidad de los controles y políticas implementadas.
-
 
 <b>RELACIÓN ENTRE ROLES Y TABLAS</b>: 
 
@@ -95,60 +93,53 @@ En primer lugar se presenta el diagrama entidad - relacion de la base de datos "
 
 ![diagrama](https://user-images.githubusercontent.com/50051421/57118393-b6880e00-6d28-11e9-894c-1e85dbc6b70c.png)
 
-En el diagrama anterior, se especfican las tablas y caracteristicas de los datos que contienen de acuerdo a los flujos necesarios para la operación del servicio ecommerse y el cumplimiento de la misión de la compañía. A continuación se modelan los flujos de acuerdo a los principales actores en el cumplimiento de dicha misión.
+En el diagrama anterior, se especifican las tablas y características de los datos de los cuales se pueden analizar los flujos necesarios para la operación del servicio e-commerce y el cumplimiento de la misión de la compañía. A continuación se modela de forma general, las principales interacción de los clientes y de los usuarios internos con las tablas de la base de datos:
 
 <b>CLIENTES</b>
 
+![flujo usuario](https://user-images.githubusercontent.com/50051421/57196876-91f98500-6f26-11e9-8819-567f6ce9c635.png)
 
-![flujo usuario](https://user-images.githubusercontent.com/50051421/57165004-7f167180-6dbb-11e9-9d8f-e95d9b45da80.png)
+De acuerdo con lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
 
-De acuerdo a lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
+<b>-Tabla User:</b> (usuario/cliente), tabla con el registro de los usuarios o clientes registrados en la aplicación, un cliente interacua con esta tabla mediante algunas acciones o casos de uso como registrarse en la página, editar su información personal, crear un usuario y contraseña, loguearse para acceder a la aplicación, entre otras.
 
-<b>-Tabla User:</b> (usuario/cliente), tabla con el registro de los usuarios o clientes registrados en la aplicación, un usuario ineracua con esta tabla mediante algunas acciones o casos de uso como registrarse en la pagína, editar su información personal, crear un usuario y contraseña, loguearse para acceder a la aplicación, entre otras.
+<b>-Tabla Product:</b> (Producto): Tabla que contiene la totalidad del inventario vigente, un cliente al interactuar con esta tabla puede realizar acciones o casos de uso como buscar productos, ver el detalle del producto y agrearlo al carrito de compras para generar una orden de pedido.
 
-<b>-Tabla Product:</b> (Producto): Tabla que contiene la total del inventario vigente, un usuario al interactuar con esta tabla puede realizar acciones o casos de uso como buscar productos, ver el detalle del producto y agrearlo al carrito de compras para generara una orden de pedido.
+<b>-Tabla OrderDetail:</b> (Detalle de la orden): Tabla que contiene el detalle de una orden o pedido que realiza un cliente. En esta tabla el usuario realiza acciones o cuenta con casos de uso como validar el contenido del carrito, modificar o editar el pedido a realizar y finalizar el pedido, generando la orden de compra final.
 
-<b>-Tabla OrderDetail:</b> (Detalle de la orden): Tabla que contiene el detalle de una orden o perdido que realiza un cliente, en esta tabla el usuario realiza acciones o cuenta con casos de uso como validar el contenido del carrito, modificar o editar el pedido a realizar y finalizar el pedido generando na orden de compra.
+A continuación se presentan los detalles más relevantes para las conexiones de los clientes:
 
-A continuación se presentan los diagramas que de flujo normal de datos para cada actor del sistema (usuarios clientes y usuarios de gestión de la aplicación:
-
-<i>Flujo de datos usuarios clientes:</i>
-
-Cantidad: Entre 0 y 100 usuarios logueados por dia (rango normal).<br/>
+Cantidad de clientes conectados: Entre 0 y 100 personans logueadas por dia (rango normal).<br/>
 Hora: En cualquier momento.<br/>
-Frecuencia: Entre 0 y 1000 consultas por usuario (rango normal).<br/>
+Frecuencia: Entre 0 y 1000 consultas por cliente (rango normal).<br/>
 Origen de la consulta: Cualquier direccion IP pública.<br/>
 
 <b>USUARIOS INTERNOS:</b>
 
-![flujo gestion](https://user-images.githubusercontent.com/50051421/57165003-7e7ddb00-6dbb-11e9-8da6-3a27a43371f0.png)
+![flujo gestion](https://user-images.githubusercontent.com/50051421/57196875-91f98500-6f26-11e9-81c6-19855290738a.png)
 
 De acuerdo a lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
 
-<b>-Tabla User Aplication:</b> (usuario interno), tabla correspondiente al consolidado de usuarios de la compañía que administran los prodcutos dentro de la aplicación y que brindan soporte a usuarios o clientes, desde ésta se puede administrar su usuario, acceder a la aplicación mediante usuario y contraseña.
+<b>-Tabla User Aplication:</b> (usuario interno), tabla correspondiente al consolidado de usuarios de la compañía que administran los productos dentro de la aplicación y que brindan soporte a usuarios o clientes, desde ésta se puede administrar su lógin y acceder a la aplicación mediante usuario y contraseña.
 
-<b>-Tabla Product:</b> (Producto): Tabla que contiene productos y que es administrada por los usuarios internos a nivel de manejo de inventarios, inclusión o exclusión de productos, gestión de fechas límite, precios y cantidad, entre otros.
+<b>-Tabla Product:</b> (Producto): Tabla que contiene productos y que es administrada por los usuarios internos a nivel de manejo de inventarios, inclusión o exclusión de productos, gestión de fechas de vencimiento, precios, cantidad, entre otros.
 
 <b>-Tabla OrderDetail:</b> (Detalle de la orden): Tabla con el consolidado de las compras de los clientes, la interacción de los usuarios internos con esta tabla comprende el realizar consultas sobre los pedidos, consultar información para el despacho de productos, consulta de información financiera, soporte a usuarios, entre otras.
 
-Cantidad: Entre 1 y 3 usuarios logueados por dia (rango normal).<br/>
+A continuación se presentan los detalles más relevantes para las conexiones de los usuarios internos:
+
+Cantidad: Entre 1 y 10 usuarios logueados por dia (rango normal).<br/>
 Hora: entre 7:00 a.m. y 7:00 p.m.<br/>
 Frecuencia: Entre 0 y 200 consultas al día (rango normal).<br/>
 Origen de la consulta: Direcciones IP internas de la Organización.<br/>
-
-</i>Administradores de la base de datos: </i><br/>
-El usuario root de la base datos está en custodia del administrador de bases de datos, contratado directamente por la organización. Durante el horario laboral este administrador se conecta desde el equipo de computo asignado, ubicado en la sede principal de la organización. Durante horarios no laborales, tiene la opción de conectarse a través de una VPN, especialmente configurada para este fin. Este ultimo método fue aprobado con el objetivo de realizar ventanas de mantenimiento y solucionar incidentes.
-
-<i>Datos que se consultan normalmente: </i><br/>
-Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo de productos en cualquier momento, a su vez el administrador de aplicaciones consulta frecuentemente las ordenes (compras) realizadas por los usuarios con el fin de iniciar el proceso de despacho. La actualizacion del listado de productos y su categoría se realiza de forma programada e informada al Director de TI. 
 
 <h2> ID.AM-5: Priorización de recursos en función de su clasificación, criticidad y valor para la empresa. </h2>
 
 <p>La clasificación de activos de información tiene como objetivo asegurar que la información recibe los niveles de protección adecuados, ya que con base en su valor y de acuerdo a otras características particulares requiere un tipo de manejo especial.</p>
 <p>El sistema de clasificación de la información que se  definio para la empresa de E-Commerce se basa en las características particulares de la información, contempla la cultura y el funcionamiento interno y busca dar cumplimiento a los requerimientos  estipulados en el item relacionado con la Gestión de Activos de los estandares 27001:2013, ISO 27002, e ISO 27005.</p>
 
-
 <p><span style="font-family: calibri, sans-serif;"><strong><span style="font-size: 12pt;">Niveles de riesgo de la informaci&oacute;n</span></strong></span></p>
+
 <p>La información almacenada en las bases de datos de la Plataforma de E-Commerce, dada su condición de activo estratégico, está sometida a múltiples amenazas que pueden dañarar sus intereses estratégicos, financieros, comerciales, técnicos, de imagen, operacionales, etc. Para medir la calificación del daño, se ha definido siguiente escala de calificación del riesgo:</p>
 
 ![Impacto3 jpg](https://user-images.githubusercontent.com/50051493/57186154-9af34380-6e9f-11e9-8202-cb3fe934ed16.png)
