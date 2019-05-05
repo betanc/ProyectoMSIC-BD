@@ -120,7 +120,7 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 <p><span style="font-family: calibri, sans-serif;"><strong><span style="font-size: 12pt;">Clasificaciónn de la sensibilidad de la informaciónn</span></strong></span></p>
 <p>La sensibilidad de una información está; vinculada a su nivel de riesgo de acuerdo a la escala definida previamente. De esta manera, se ha determinado la siguiente clasificación de la sensibilidad:</p>
 
-![EscalaClasificacion2](https://user-images.githubusercontent.com/50051493/57186608-d6920b80-6ea7-11e9-84d0-1c942200a9a0.png)
+![EscalaClasificacion3](https://user-images.githubusercontent.com/50051493/57186626-61730600-6ea8-11e9-9d3e-d9a7dc3e3a4b.png)
 
 
 
