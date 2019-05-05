@@ -105,7 +105,7 @@ El usuario root de la base datos está en custodia del administrador de bases de
 <i>Datos que se consultan normalmente: </i><br/>
 Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo de productos en cualquier momento, a su vez el administrador de aplicaciones consulta frecuentemente las ordenes (compras) realizadas por los usuarios con el fin de iniciar el proceso de despacho. La actualizacion del listado de productos y su categoría se realiza de forma programada e informada al Director de TI. 
 
-<h2> ID.AM-5: Priorización de recursos en funci&oacute;n de su clasificaci&oacute;n, criticidad y valor para la empresa. </h2>
+<h2> ID.AM-5: Priorización de recursos en función de su clasificación, criticidad y valor para la empresa. </h2>
 
 <p>La clasificación de activos de información tiene como objetivo asegurar que la información recibe los niveles de protección adecuados, ya que con base en su valor y de acuerdo a otras características particulares requiere un tipo de manejo especial.</p>
 <p>El sistema de clasificación de la información que se  definio para la empresa de E-Commerce se basa en las características particulares de la información, contempla la cultura y el funcionamiento interno y busca dar cumplimiento a los requerimientos  estipulados en el item relacionado con la Gestión de Activos de los estandares 27001:2013, ISO 27002, e ISO 27005.</p>
@@ -119,6 +119,9 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 
 <p><span style="font-family: calibri, sans-serif;"><strong><span style="font-size: 12pt;">Clasificaciónn de la sensibilidad de la informaciónn</span></strong></span></p>
 <p>La sensibilidad de una información está; vinculada a su nivel de riesgo de acuerdo a la escala definida previamente. De esta manera, se ha determinado la siguiente clasificación de la sensibilidad:</p>
+
+![EscalaClasificacion](https://user-images.githubusercontent.com/50051493/57186547-e4935c80-6ea6-11e9-9424-b525ed500504.png)
+
 
 
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
