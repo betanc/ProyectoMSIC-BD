@@ -75,6 +75,11 @@ El resultado es el siguiente:
 
 <h2> ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados </h2>
 
+A continuación se presenta un diagrama de arquitectura y la interacción que se tiene con la base de datos mediante la cual se pueden identificar algunos flujos de información y comunicaciones:
+
+
+![diagrama arq2](https://user-images.githubusercontent.com/48939055/57187746-57a5ce80-6eb9-11e9-8be2-7b815d36db85.jpg)
+
 En primer lugar se presenta el diagrama entidad - relacion de la base de datos "bsm", el cual permite expresar graficamente el diseño de la base de datos y la interaccion entre sus tablas.
 
 ![diagrama](https://user-images.githubusercontent.com/50051421/57118393-b6880e00-6d28-11e9-894c-1e85dbc6b70c.png)
