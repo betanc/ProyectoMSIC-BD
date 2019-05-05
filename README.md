@@ -114,7 +114,7 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 <p><span style="font-family: calibri, sans-serif;"><strong><span style="font-size: 12pt;">Niveles de riesgo de la informaci&oacute;n</span></strong></span></p>
 <p>La información almacenada en las bases de datos de la Plataforma de E-Commerce, dada su condición de activo estratégico, está sometida a múltiples amenazas que pueden dañarar sus intereses estratégicos, financieros, comerciales, técnicos, de imagen, operacionales, etc. Para medir la calificación del daño, se ha definido siguiente escala de calificación del riesgo:</p>
 
-![Impacto](https://user-images.githubusercontent.com/50051493/57186030-68e0e200-6e9d-11e9-8fa7-b332d37e2bad.png)
+![Impacto3 jpg](https://user-images.githubusercontent.com/50051493/57186154-9af34380-6e9f-11e9-8202-cb3fe934ed16.png)
 
 
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
