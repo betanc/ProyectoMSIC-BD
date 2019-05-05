@@ -142,10 +142,10 @@ Origen de la consulta: Direcciones IP internas de la Organización.<br/>
 <p><span style="font-family: calibri, sans-serif;"><strong><span style="font-size: 12pt;">Clasificaciónn de la sensibilidad de la informaciónn</span></strong></span></p>
 <p>La sensibilidad de una información está; vinculada a su nivel de riesgo de acuerdo a la escala definida previamente. De esta manera, se ha determinado la siguiente clasificación de la sensibilidad:</p>
 
-![Clasificacion modificada](https://user-images.githubusercontent.com/50051493/57199762-5079d180-6f48-11e9-9dc9-8a28159e712d.png)
+![Clasificacion modificada222](https://user-images.githubusercontent.com/50051493/57199910-583a7580-6f4a-11e9-9b05-62566bf6b7d0.png)
 
-![ClasificacionInfoActivos](https://user-images.githubusercontent.com/50051493/57199765-5374c200-6f48-11e9-81e9-c1136ee1662a.PNG)
 
+![ClasificacionInfoActivos222](https://user-images.githubusercontent.com/50051493/57199920-7902cb00-6f4a-11e9-81bf-aa8c8d895d34.PNG)
 
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
