@@ -95,6 +95,13 @@ En primer lugar se presenta el diagrama entidad - relacion de la base de datos "
 
 ![diagrama](https://user-images.githubusercontent.com/50051421/57118393-b6880e00-6d28-11e9-894c-1e85dbc6b70c.png)
 
+En el diagrama anterior, se especfican las tablas y caracteristicas de los datos que contienen de acuerdo a los flujos necesarios para la operación del servicio ecommerse y el cumplimiento de la misión de la compañía. A continuación se modelan los flujos de acuerdo a los principales actores en el cumplimiento de dicha misión.
+
+<b>CLIENTES</>
+
+
+![flujo usuario](https://user-images.githubusercontent.com/50051421/57165004-7f167180-6dbb-11e9-9d8f-e95d9b45da80.png)
+
 De acuerdo a lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
 
 <b>-Tabla User:</b> (usuario/cliente), tabla con el registro de los usuarios o clientes registrados en la aplicación, un usuario ineracua con esta tabla mediante algunas acciones o casos de uso como registrarse en la pagína, editar su información personal, crear un usuario y contraseña, loguearse para acceder a la aplicación, entre otras.
@@ -112,34 +119,24 @@ Hora: En cualquier momento.<br/>
 Frecuencia: Entre 0 y 1000 consultas por usuario (rango normal).<br/>
 Origen de la consulta: Cualquier direccion IP pública.<br/>
 
-![flujo usuario](https://user-images.githubusercontent.com/50051421/57165004-7f167180-6dbb-11e9-9d8f-e95d9b45da80.png)
+<b>USUARIOS INTERNOS:</b>
+
+![flujo gestion](https://user-images.githubusercontent.com/50051421/57165003-7e7ddb00-6dbb-11e9-8da6-3a27a43371f0.png)
 
 De acuerdo a lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
 
-<b>-Tabla User:</b> (usuario/cliente), tabla con ere otras.
+<b>-Tabla User Aplication:</b> (usuario interno), tabla correspondiente al consolidado de usuarios de la compañía que administran los prodcutos dentro de la aplicación y que brindan soporte a usuarios o clientes, desde ésta se puede administrar su usuario, acceder a la aplicación mediante usuario y contraseña.
 
-<b>-Tabla Product:</b> (Producto): Tabla que contiene  pedido.
+<b>-Tabla Product:</b> (Producto): Tabla que contiene productos y que es administrada por los usuarios internos a nivel de manejo de inventarios, inclusión o exclusión de productos, gestión de fechas límite, precios y cantidad, entre otros.
 
-<b>-Tabla OrderDetail:</b> (Detalle de la orden): Tabla que contiene ecompra.
-
-<i>Flujo de datos usuarios de gestión de la aplicación:</i>
+<b>-Tabla OrderDetail:</b> (Detalle de la orden): Tabla con el consolidado de las compras de los clientes, la interacción de los usuarios internos con esta tabla comprende el realizar consultas sobre los pedidos, consultar información para el despacho de productos, consulta de información financiera, soporte a usuarios, entre otras.
 
 Cantidad: Entre 1 y 3 usuarios logueados por dia (rango normal).<br/>
 Hora: entre 7:00 a.m. y 7:00 p.m.<br/>
 Frecuencia: Entre 0 y 200 consultas al día (rango normal).<br/>
 Origen de la consulta: Direcciones IP internas de la Organización.<br/>
 
-![flujo gestion](https://user-images.githubusercontent.com/50051421/57165003-7e7ddb00-6dbb-11e9-8da6-3a27a43371f0.png)
-
-De acuerdo a lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
-
-<b>-Tabla User:</b> (usuario/cliente), tabla ras.
-
-<b>-Tabla Product:</b> (Producto): Tabla que contiene edido.
-
-<b>-Tabla OrderDetail:</b> (Detalle de la orden): Tabla que contiene eompra.
-
-</i>Administradores: </i><br/>
+</i>Administradores de la base de datos: </i><br/>
 El usuario root de la base datos está en custodia del administrador de bases de datos, contratado directamente por la organización. Durante el horario laboral este administrador se conecta desde el equipo de computo asignado, ubicado en la sede principal de la organización. Durante horarios no laborales, tiene la opción de conectarse a través de una VPN, especialmente configurada para este fin. Este ultimo método fue aprobado con el objetivo de realizar ventanas de mantenimiento y solucionar incidentes.
 
 <i>Datos que se consultan normalmente: </i><br/>
