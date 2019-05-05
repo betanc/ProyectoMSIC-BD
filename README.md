@@ -82,6 +82,13 @@ A continuación se presenta un diagrama de arquitectura y la interacción que se
 
 ![diagrama arq2](https://user-images.githubusercontent.com/48939055/57187790-e6b2e680-6eb9-11e9-9829-69e4427ff432.jpg)
 
+De acuerdo con el diagrama de arquitectura de red, con el contexto y las necesidades de negocio planteadas, se identifican principalmente cuatro roles en la base de datos.
+- <b>Clientes/usuarios:</b> Usuarios que interactuan con la aplicación desde los servicios publicados en internet. Éstos interactuan con la base de datos desde la capa de presentación y operan como usuarios finales o consumidores de los servicios de la compañia.
+- <b>Usuarios internos:</b> Hace referencia a empleados de la compañía los cuales tienen interacción desde la capa de presentación (Servidor de aplicación) del servicio. Acceden principalmente desde la red interna y cumplen funciones como administrar la aplicación, manejar inventarios, brindar soporte a clientes, hacer consultas sobre las tablas de productos, entre otras. Dentro de esta ctegoria también se incluye personal de TI que tiene interacción o administra la aplicación y el servidor de aplicación.
+- <b>Administrador de Base de datos:</b> Principal responsable sobre la administración de la base de datos y sus tablas.
+- <b>Monitoreo y seguridad:</b> Dentro de rol o roles se establecen responsbilidades de monitoreo sobre las acciones, cambios y trasacciones de la base de datos, de igual forma, consulta sobre roles y permisos de la base de datos, acciones realizadas por el administrador y la adecuada administración y continuidad de los controles y políticas implementadas.
+
+
 En primer lugar se presenta el diagrama entidad - relacion de la base de datos "bsm", el cual permite expresar graficamente el diseño de la base de datos y la interaccion entre sus tablas.
 
 ![diagrama](https://user-images.githubusercontent.com/50051421/57118393-b6880e00-6d28-11e9-894c-1e85dbc6b70c.png)
