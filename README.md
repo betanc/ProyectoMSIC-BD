@@ -73,7 +73,7 @@ El resultado es el siguiente:
 </table>
 
 
-<h2> ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados </h2>
+<h2> Control ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados </h2>
 
 A continuación se presenta un diagrama de arquitectura y la interacción que se tiene con la base de datos mediante la cual se pueden identificar algunos flujos de información y comunicaciones:
 
@@ -133,7 +133,7 @@ Hora: entre 7:00 a.m. y 7:00 p.m.<br/>
 Frecuencia: Entre 0 y 200 consultas al día (rango normal).<br/>
 Origen de la consulta: Direcciones IP internas de la Organización.<br/>
 
-<h2> ID.AM-5: Priorización de recursos en función de su clasificación, criticidad y valor para la empresa. </h2>
+<h2> Control ID.AM-5: Priorización de recursos en función de su clasificación, criticidad y valor para la empresa. </h2>
 
 <p>La información almacenada en las bases de datos de la Plataforma de E-Commerce, dada su condición de activo estratégico, está sometida a múltiples amenazas que pueden dañarar sus intereses estratégicos, financieros, comerciales, técnicos, de imagen, operacionales, etc. La clasificación de activos de información tiene como objetivo asegurar que la información recibe los niveles de protección adecuados, ya que con base en su valor y de acuerdo a otras características particulares requiere un tipo de manejo especial.</p>
 <p>El sistema de clasificación de la información que se  definio para la empresa de E-Commerce se basa en las características particulares de la información, contempla la cultura y el funcionamiento interno y busca dar cumplimiento a los requerimientos  estipulados en el item relacionado con la Gestión de Activos de los estandares 27001:2013, ISO 27002, e ISO 27005.</p>
@@ -154,7 +154,7 @@ Origen de la consulta: Direcciones IP internas de la Organización.<br/>
 
 ![TiposdeUsuariosBase1](https://user-images.githubusercontent.com/50051493/57187104-c9791a80-6eaf-11e9-96a0-dccbd442ef5a.png)
 
-<h2>ID.GV-3: Requisitos legales y reglamentarios relacionados con la ciberseguridad</h2>
+<h2>Control ID.GV-3: Requisitos legales y reglamentarios relacionados con la ciberseguridad</h2>
 
 A continuación se presentan los requisitos legales y reglamentarios relacionados con la ciberseguridad identificados para la organización:
 
@@ -214,3 +214,15 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 <p>El an&aacute;lisis de valoraci&oacute;n de Impacto se realiza con tres criterios definidos: reputacional, legal y/o operacional. Identificando el m&aacute;s alto de los 3, y si poseen igual valor se dejar&aacute;n todos los criterios en el escenario del riesgo con el mismo valor.</p>
 
 ![Impacto](https://user-images.githubusercontent.com/50051518/57166841-07e3dc00-6dc1-11e9-99e1-af266b33a2e9.jpg)
+
+<b>IDENTIFICACIÓN DE RIESGOS: </b>
+<p><strong>A continuación se relacionan los escenarios de riesgos identificados, con su respectiva valoración de probabilidad e impacto y el resultado arroja el Riesgo Inherente.</strong></p>
+
+![Riesgos1](https://user-images.githubusercontent.com/50051518/57200768-50cc9980-6f55-11e9-929c-05cd88675c3d.jpg)
+
+![Imagen2](https://user-images.githubusercontent.com/50051518/57200771-5924d480-6f55-11e9-8d02-86d94a9aef06.jpg)
+
+<b>MAPA DE CALOR:</b> 
+<p><strong>En el mapa de calor se observa la ubicación de los 7 riesgos identificados según su valoración: </strong></p>
+
+![MapaRIesgos](https://user-images.githubusercontent.com/50051518/57200772-5924d480-6f55-11e9-984b-b576e6b9f16a.jpg)
