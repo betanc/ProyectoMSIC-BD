@@ -117,6 +117,10 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 ![Impacto3 jpg](https://user-images.githubusercontent.com/50051493/57186154-9af34380-6e9f-11e9-8202-cb3fe934ed16.png)
 
 
+<p><span style="font-family: calibri, sans-serif;"><strong><span style="font-size: 12pt;">Clasificaciónn de la sensibilidad de la informaciónn</span></strong></span></p>
+<p>La sensibilidad de una información está; vinculada a su nivel de riesgo de acuerdo a la escala definida previamente. De esta manera, se ha determinado la siguiente clasificación de la sensibilidad:</p>
+
+
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
 ![ResponsabilidadesDBs](https://user-images.githubusercontent.com/50051493/57184644-016a6880-6e84-11e9-93c9-367f243e0350.png)
