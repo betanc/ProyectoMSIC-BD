@@ -97,7 +97,7 @@ En primer lugar se presenta el diagrama entidad - relacion de la base de datos "
 
 En el diagrama anterior, se especfican las tablas y caracteristicas de los datos que contienen de acuerdo a los flujos necesarios para la operación del servicio ecommerse y el cumplimiento de la misión de la compañía. A continuación se modelan los flujos de acuerdo a los principales actores en el cumplimiento de dicha misión.
 
-<b>CLIENTES</>
+<b>CLIENTES</b>
 
 
 ![flujo usuario](https://user-images.githubusercontent.com/50051421/57165004-7f167180-6dbb-11e9-9d8f-e95d9b45da80.png)
