@@ -5,7 +5,7 @@ Proyecto materia seguridad en bases de datos MSIC
 
 Empresa Colombiana E-commerce de venta de medicamentos en linea, utiliza tarjetas de crédito para pagos, los cuales realiza a través de una plataforma externa. Los servidores están ubicados en Colombia en su propio datacenter y con administración interna. Si bien cuentan con responsabilidades asignadas para la toma de backups, no se cuenta con un procedimiento definido y estandarizado para ello.
 El motor que soporta la base de datos es MySQL Community 5.6.44 bajo un servidor Debian. 
-La plataforma web no fue creada utilizando metodologías de desarrollo seguro, no se han realizado análisis de vulnerabilidades en ninguna capa (aplicación web, servidor, base de datos).No se realiza gestión ni monitoreo de logs en ninguna de las capas del sistema.
+La plataforma web no fue creada utilizando metodologías de desarrollo seguro, no se han realizado análisis de vulnerabilidades en ninguna capa (aplicación web, servidor, base de datos). No se realiza gestión ni monitoreo de logs en ninguna de las capas del sistema.
 
 <h2> Control ID.AM-2: Las plataformas y aplicaciones de software dentro de la organización están inventariadas</h2>
 
@@ -131,6 +131,19 @@ Cantidad: Entre 1 y 10 usuarios logueados por dia (rango normal).<br/>
 Hora: entre 7:00 a.m. y 7:00 p.m.<br/>
 Frecuencia: Entre 0 y 200 consultas al día (rango normal).<br/>
 Origen de la consulta: Direcciones IP internas de la Organización.<br/>
+
+
+A continuación se presentan imágenes de la base de datos evidenciando las tablas anteriormente mencionadas:
+
+Tabla usuarios:
+![Captura usuarios](https://user-images.githubusercontent.com/50051421/57201382-f1bf5280-6f5d-11e9-9118-984ac705bc4f.JPG)
+
+Tabla productos:
+![Captura productos](https://user-images.githubusercontent.com/50051421/57201381-f1bf5280-6f5d-11e9-89d4-fe75b62bef45.JPG)
+
+Tabla detalle de la orden:
+![Captura order detail](https://user-images.githubusercontent.com/50051421/57201380-f1bf5280-6f5d-11e9-8448-a7764dde67bf.JPG)
+
 
 <h2> Control ID.AM-5: Priorización de recursos en función de su clasificación, criticidad y valor para la empresa. </h2>
 
