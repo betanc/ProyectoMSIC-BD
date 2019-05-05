@@ -16,16 +16,19 @@ Se definió una metodología estándar para la administración de los activos de
 
 Proceso de identificación de activos: Desde el área de riesgos se establecen fechas de revisión y actualización de al identificación de activos, los activos se identificarán por el propietario o responsable de la información con el acompañamiento del área de ciberseguridad mediante reuniones metodológicas tipo lluvia de ideas en las cuales se usaran herramientas de apoyo como análisis de impacto, identificación y modelado de amenazas, riesgo operativo, tablas de retención documental, entre otras a fin. Dentro del proceso se debe identificar:
 
-<b><br>Nombre:</br></b> Nombre del activo mediante el cual se puede identificar el mismo.
-<b><br>Descripción:</br></b> Descripción sobre el contenido y relvancia del activo, así como componentes que apoyen su identificación
-<b><br>Tipo:</br></b> Definir el tipo de activo entre: 
+<b>Nombre:</b> Nombre del activo mediante el cual se puede identificar el mismo.
+
+<b>Descripción:</b> Descripción sobre el contenido y relvancia del activo, así como componentes que apoyen su identificación.
+
+<b>Tipo:</b> Definir el tipo de activo entre: 
  - Software (No tangible que apoya generación, procesamiento, almacenamiento o eliminación de información.
  - Hardware (Dispositivos físicos que apoyan la generación, procesamiento, almacenamiento o eliminación de información.
  - Base de Datos: Información estructurada, entidades de datos con sentido y orden lógico dentro de un sistema y una relación con la organización.
-<b><br>Propietario del Activo:</br></b> Ente con responsabilidad sobre la información. proceso que lo requiere para su operación.
-<b><br>Ubicación:</br></b> Ubicación física y/o lógica del activo.
-
  
+<b>Propietario del Activo:</br></b> Ente con responsabilidad sobre la información. proceso que lo requiere para su operación.
+
+<b>Ubicación:</b> Ubicación física y/o lógica del activo.
+
  
 El resultado es el siguiente:
 
