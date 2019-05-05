@@ -56,13 +56,6 @@ El resultado es el siguiente:
     
   </tr>
   <tr>
-    <td class="tg-jpc1">Firewall</td>
-    <td class="tg-jpc1">Dispositivo Next Generation encargado de la seeguridad de perimetro de los sistemas de información</td>
-    <td class="tg-jpc1">Hardware</td>
-    <td class="tg-jpc1">Proceso de Tecnología</td>
-    <td class="tg-jpc1">Datacenter principal</td>
-  </tr>
-   <tr>
     <td class="tg-jpc1">Monitor de Base de datos</td>
     <td class="tg-jpc1">Dispositivo de monitoreo encargado de consolidar registros y generar alertas de las actividades realizadas en la base de datos por los usuarios</td>
     <td class="tg-jpc1">Hardware</td>
