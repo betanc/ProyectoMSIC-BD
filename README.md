@@ -175,10 +175,8 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
  <tr><td>Constitución Política</td><td>1991</td><td>Constitución Política. Artículo 15. Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.</td></tr>
  <tr><td>Ley Estatutaria</td><td>1266 de 2008</td><td>Por la cual se dictan las disposiciones generales del habeas data y se regula el manejo de la información contenida en bases de datos personales, en especial la financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones.</td></tr>
  <tr><td>Ley Estatutaria</td><td>1581 de 2012</td><td>Por la cual se dictan disposiciones generales para la protección de datos personales.</td></tr>
- <tr><td>Ley</td><td>1273 de 2009</td><td>Por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado - denominado "de la protección de la información y de los datos"- y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones.</td></tr>
- <tr><td>Ley</td><td>527 de 1999</td><td>Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones.</td></tr>
- <tr><td>Ley</td><td>1928 de 2018</td><td>Por medio de la cual se aprueba el "Convenio sobre la Ciberdelincuencia" del Congreso de Colombia.</td></tr>
- <tr><td>Ley </td><td>633 de 2000</td><td>Articulo 91: Todas las páginas Web y sitios de Internet de origen colombiano que operan en el Internet y cuya actividad económica sea de carácter comercial, financiero o de prestación de servicios, deberán inscribirse en el Registro Mercantil y suministrar a la Dirección de Impuestos y Aduanas Nacionales DIAN, la información de transacciones económicas en los términos que esta entidad lo requiera.</td></tr>
+  <tr><td>Ley</td><td>527 de 1999</td><td>Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales, y se establecen las entidades de certificación y se dictan otras disposiciones.</td></tr>
+  <tr><td>Ley </td><td>633 de 2000</td><td>Articulo 91: Todas las páginas Web y sitios de Internet de origen colombiano que operan en el Internet y cuya actividad económica sea de carácter comercial, financiero o de prestación de servicios, deberán inscribirse en el Registro Mercantil y suministrar a la Dirección de Impuestos y Aduanas Nacionales DIAN, la información de transacciones económicas en los términos que esta entidad lo requiera.</td></tr>
  <tr><td>Ley</td><td>1480 de 2011</td><td>Por medio de la cual se expide el Estatuto del Consumidor y se dictan otras disposiciones.</td></tr>
  <tr><td>Ley</td><td> 1735 de 2014</td><td>Por la cual se dictan medidas tendientes a promover el acceso a los servicios financieros transaccionales y se dictan otras disposiciones.</td></tr>
  <tr><td>Decreto</td><td>2952 de 2010</td><td>Por el cual se reglamentan los artículos 12 y 13 de la Ley 1266 de 2008.</td></tr>
@@ -186,7 +184,8 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
  <tr><td>Decreto</td><td>886 de 2014</td><td>Por el cual se reglamenta el artículo 25 de la Ley 1581 de 2012, relativo al Registro Nacional de Bases de Datos</td></tr>
  <tr><td>Decreto</td><td>1747 de 2000</td><td>Por el cual se reglamenta parcialmente la Ley 527 de 1999, en lo relacionado con las entidades de certificación, los certificados y las firmas digitales.</td></tr>
  <tr><td>Circular Externa Superfinanciera</td><td>008 de 2018 </td><td>Imparte instrucciones en materia de requerimientos mínimos de seguridad y calidad para la realización de operaciones.</td></tr>
- <tr><td>Circular Externa SIC</td><td>Circular única agosto de 2001</td><td>Título V Protección de datos personales</td></tr>
+ <tr><td>Circular Externa Superintendencia de Industria y Comercio</td><td>Circular única agosto de 2001</td><td>Título V Protección de datos personales</td></tr>
+  <tr><td>EStandar PCI DSS </td><td>versión 3.2.1 </td><td>Estándar de Seguridad de Datos para la Industria de Tarjeta de Pago </td></tr>
 </tbody></table>
 
 
