@@ -78,7 +78,7 @@ El resultado es el siguiente:
 A continuación se presenta un diagrama de arquitectura y la interacción que se tiene con la base de datos mediante la cual se pueden identificar algunos flujos de información y comunicaciones:
 
 
-![diagrama arq2](https://user-images.githubusercontent.com/48939055/57187746-57a5ce80-6eb9-11e9-8be2-7b815d36db85.jpg)
+![diagrama arq2](https://user-images.githubusercontent.com/48939055/57187790-e6b2e680-6eb9-11e9-9829-69e4427ff432.jpg)
 
 En primer lugar se presenta el diagrama entidad - relacion de la base de datos "bsm", el cual permite expresar graficamente el diseño de la base de datos y la interaccion entre sus tablas.
 
