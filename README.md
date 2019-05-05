@@ -77,7 +77,7 @@ El resultado es el siguiente:
 A continuación se presenta un diagrama de arquitectura y la interacción que se tiene con la base de datos mediante la cual se pueden identificar algunos flujos de información y comunicaciones:
 
 
-![diagrama arq3](https://user-images.githubusercontent.com/48939055/57201187-11a14700-6f5b-11e9-81d8-1541f4c55848.jpg)
+![diagrama arq4](https://user-images.githubusercontent.com/48939055/57202032-30590b00-6f66-11e9-8cec-658371ec5028.jpg)
 
 De acuerdo con el diagrama de arquitectura de red, con el contexto y las necesidades de negocio planteadas, se identifican principalmente cuatro roles en la base de datos.
 - <b>Clientes/usuarios:</b> Usuarios que interactuan con la aplicación desde los servicios publicados en internet. Éstos interactuan con la base de datos desde la capa de presentación y operan como usuarios finales o consumidores de los servicios de la compañia.
@@ -243,4 +243,5 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 <li>Gestión de Activos: ISO 27001:2013</li>
 <li>NIST Cybersecurity Framework 1.1</li>
 <li>Marco Regulatorio:www.sic.gov.co/repositorio-de-normatividad</li>
-
+<li>Seguridad en MySQL:https://dev.mysql.com/doc/refman/8.0/en/security-html</li>
+<li>Control de acceso MySql:https://dev.mysql.com/doc/refman/8.0/en/access-control.html</li>
