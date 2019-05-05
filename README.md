@@ -89,10 +89,17 @@ De acuerdo con el diagrama de arquitectura de red, con el contexto y las necesid
 - <b>Monitoreo y seguridad:</b> Dentro de rol o roles se establecen responsbilidades de monitoreo sobre las acciones, cambios y trasacciones de la base de datos, de igual forma, consulta sobre roles y permisos de la base de datos, acciones realizadas por el administrador y la adecuada administración y continuidad de los controles y políticas implementadas.
 
 
+<b>RELACIÓN ENTRE ROLES Y TABLAS</b>: 
+
 En primer lugar se presenta el diagrama entidad - relacion de la base de datos "bsm", el cual permite expresar graficamente el diseño de la base de datos y la interaccion entre sus tablas.
 
 ![diagrama](https://user-images.githubusercontent.com/50051421/57118393-b6880e00-6d28-11e9-894c-1e85dbc6b70c.png)
 
+De acuerdo a lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
+
+-Tabla User: (usuario/cliente), tabla con el registro de los usuarios o clientes registrados en la aplicación, un usuario ineracua con esta tabla mediante algunas acciones o casos de uso como registrarse en la pagína, editar su información personal, crear un usuario y contraseña, loguearse para acceder a la aplicación, entre otras.
+-Tabla Product: (Producto): Tabla que contiene la total del inventario vigente, un usuario al interactuar con esta tabla puede realizar acciones o casos de uso como buscar productos, ver el detalle del producto y agrearlo al carrito de compras para generara una orden de pedido.
+-Tabla OrderDetail: (Detalle de la orden): Tabla que contiene el detalle de una orden o perdido que realiza un cliente, en esta tabla el usuario realiza acciones o cuenta con casos de uso como validar el contenido del carrito, modificar o editar el pedido a realizar y finalizar el pedido generando na orden de compra.
 
 A continuación se presentan los diagramas que de flujo normal de datos para cada actor del sistema (usuarios clientes y usuarios de gestión de la aplicación:
 
