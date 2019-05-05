@@ -161,7 +161,7 @@ Tabla detalle de la orden:
 
 <h2> Control ID.AM-6: Establecer roles y responsabilidades de Ciberseguridad</h2>
 
-![ResponsabilidadesDBs](https://user-images.githubusercontent.com/50051493/57184644-016a6880-6e84-11e9-93c9-367f243e0350.png)
+![Organigrama Empresa 3 pptx](https://user-images.githubusercontent.com/50051493/57201897-9f356480-6f64-11e9-966e-f8acb6e311f4.png)
 
 
 ![TiposdeUsuariosBase1](https://user-images.githubusercontent.com/50051493/57187104-c9791a80-6eaf-11e9-96a0-dccbd442ef5a.png)
@@ -238,5 +238,9 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 
 ![MapaRIesgos](https://user-images.githubusercontent.com/50051518/57200772-5924d480-6f55-11e9-984b-b576e6b9f16a.jpg)
 
-<h2>REFERENCIAS BIBLIOGRÁFICAS </h2>
+<h2>REFERENCIAS </h2>
 <li>Gestión de Riesgos: ISO 31000:2018</li>
+<li>Gestión de Activos: ISO 27001:2013</li>
+<li>NIST Cybersecurity Framework 1.1</li>
+<li>Marco Regulatorio:www.sic.gov.co/repositorio-de-normatividad</li>
+
