@@ -5,7 +5,7 @@ Proyecto materia seguridad en bases de datos MSIC
 
 Empresa de E-commerce de venta de medicamentos en linea, utiliza tarjetas de crédito para los pagos, los cuales realiza a través de una plataforma externa. Los servidores están ubicados en Colombia en su propio datacenter y con administración interna. El datacenter no cumple con estándares internacionales (TIER).
 Si bien cuentan con responsabilidades asignadas para la toma de backups, no se cuenta con un procedimiento definido y estandarizado para ello.
-El motor que soporta la base de datos es MySQL Community 8.0.16 bajo un servidor Debian. 
+El motor que soporta la base de datos es MySQL Community 5.6.44 bajo un servidor Debian. 
 La plataforma web no fue creada utilizando metodologías de desarrollo seguro, no se han realizado análisis de vulnerabilidades en ninguna capa (aplicación web, servidor, base de datos).No se realiza gestión ni monitoreo de logs en ninguna de las capas del sistema.
 
 <h2> Control ID.AM-2: Las plataformas y aplicaciones de software dentro de la organización están inventariadas</h2>
@@ -41,7 +41,7 @@ El resultado es el siguiente:
   </tr>
   <tr>
     <td class="tg-l6li">Base de datos: bsm</td>
-    <td class="tg-jpc1">Generalidades: Contiene 9 tablas que permiten a la organizacion desarrollar su negocio, la venta en linea de medicamentos a los usuarios registrados. <br>Motor: MySQL Community 8.0.16.<br>Tipo: Base de Datos: Relacional.<br>Información sensible: Contiene datos personales y crediticios.<br>Licenciamiento del motor: GLP.<br>Puerto: 3306 <br>Tamaño: 51k</td>
+    <td class="tg-jpc1">Generalidades: Contiene 9 tablas que permiten a la organizacion desarrollar su negocio, la venta en linea de medicamentos a los usuarios registrados. <br>Motor: MySQL Community 5.6.44.<br>Tipo: Base de Datos: Relacional.<br>Información sensible: Contiene datos personales y crediticios.<br>Licenciamiento del motor: GLP.<br>Puerto: 3306 <br>Tamaño: 61.1KB</td>
     <td class="tg-l6li">Base de datos</td>
     <td class="tg-l6li">Proceso misional</td>
     <td class="tg-l6li">Datacenter principal<br>Servidor de base de datos</td>
