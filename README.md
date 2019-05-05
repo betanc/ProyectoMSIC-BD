@@ -47,6 +47,14 @@ El resultado es el siguiente:
     <td class="tg-l6li">Datacenter principal<br>Servidor de base de datos</td>
 
   </tr>
+   <tr>
+    <td class="tg-jpc1">Servidor de Aplicación</td>
+    <td class="tg-jpc1">Servidor Debian que aloja la interfaz de presentación y mediante el cual se realizan consultas a la base de datos y se alimenta la misma<br>Disco duro: 500GB<br>RAM: 8GB<br>Número de núcleos: 4<br></td>
+    <td class="tg-jpc1">Hardware</td>
+    <td class="tg-jpc1">Proceso de Tecnología</td>
+    <td class="tg-jpc1">Datacenter principal</td>
+    
+  </tr>
   <tr>
     <td class="tg-jpc1">Servidor de base de datos</td>
     <td class="tg-jpc1">Servidor Debian que aloja la base de datos bsm<br>Disco duro: 500GB<br>RAM: 8GB<br>Número de núcleos: 4<br></td>
