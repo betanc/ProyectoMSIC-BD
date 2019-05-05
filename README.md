@@ -129,7 +129,8 @@ Los usuarios (compradores) pueden consultar sus ordenes,  asi como el catalogo d
 ![ResponsabilidadesDBs](https://user-images.githubusercontent.com/50051493/57184644-016a6880-6e84-11e9-93c9-367f243e0350.png)
 
 
-![tipos de usuarios 6](https://user-images.githubusercontent.com/50051493/57187008-5d49e700-6eae-11e9-8da8-ce754a2165fd.png)
+![tipos de usuarios 3](https://user-images.githubusercontent.com/50051493/57187037-c598c880-6eae-11e9-8ba1-9d2987acc65f.png)
+
 
 
 <h2>Control ID.GV-4: Procesos de Gobierno y Gesti&oacute;n para la identificaci&oacute;n de los riesgos de Ciberseguridad</h2>
