@@ -97,9 +97,11 @@ En primer lugar se presenta el diagrama entidad - relacion de la base de datos "
 
 De acuerdo a lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
 
--Tabla User: (usuario/cliente), tabla con el registro de los usuarios o clientes registrados en la aplicación, un usuario ineracua con esta tabla mediante algunas acciones o casos de uso como registrarse en la pagína, editar su información personal, crear un usuario y contraseña, loguearse para acceder a la aplicación, entre otras.
--Tabla Product: (Producto): Tabla que contiene la total del inventario vigente, un usuario al interactuar con esta tabla puede realizar acciones o casos de uso como buscar productos, ver el detalle del producto y agrearlo al carrito de compras para generara una orden de pedido.
--Tabla OrderDetail: (Detalle de la orden): Tabla que contiene el detalle de una orden o perdido que realiza un cliente, en esta tabla el usuario realiza acciones o cuenta con casos de uso como validar el contenido del carrito, modificar o editar el pedido a realizar y finalizar el pedido generando na orden de compra.
+<b>-Tabla User:</b> (usuario/cliente), tabla con el registro de los usuarios o clientes registrados en la aplicación, un usuario ineracua con esta tabla mediante algunas acciones o casos de uso como registrarse en la pagína, editar su información personal, crear un usuario y contraseña, loguearse para acceder a la aplicación, entre otras.
+
+<b>-Tabla Product:</b> (Producto): Tabla que contiene la total del inventario vigente, un usuario al interactuar con esta tabla puede realizar acciones o casos de uso como buscar productos, ver el detalle del producto y agrearlo al carrito de compras para generara una orden de pedido.
+
+<b>-Tabla OrderDetail:</b> (Detalle de la orden): Tabla que contiene el detalle de una orden o perdido que realiza un cliente, en esta tabla el usuario realiza acciones o cuenta con casos de uso como validar el contenido del carrito, modificar o editar el pedido a realizar y finalizar el pedido generando na orden de compra.
 
 A continuación se presentan los diagramas que de flujo normal de datos para cada actor del sistema (usuarios clientes y usuarios de gestión de la aplicación:
 
@@ -112,6 +114,14 @@ Origen de la consulta: Cualquier direccion IP pública.<br/>
 
 ![flujo usuario](https://user-images.githubusercontent.com/50051421/57165004-7f167180-6dbb-11e9-9d8f-e95d9b45da80.png)
 
+De acuerdo a lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
+
+<b>-Tabla User:</b> (usuario/cliente), tabla con ere otras.
+
+<b>-Tabla Product:</b> (Producto): Tabla que contiene  pedido.
+
+<b>-Tabla OrderDetail:</b> (Detalle de la orden): Tabla que contiene ecompra.
+
 <i>Flujo de datos usuarios de gestión de la aplicación:</i>
 
 Cantidad: Entre 1 y 3 usuarios logueados por dia (rango normal).<br/>
@@ -120,6 +130,14 @@ Frecuencia: Entre 0 y 200 consultas al día (rango normal).<br/>
 Origen de la consulta: Direcciones IP internas de la Organización.<br/>
 
 ![flujo gestion](https://user-images.githubusercontent.com/50051421/57165003-7e7ddb00-6dbb-11e9-8da6-3a27a43371f0.png)
+
+De acuerdo a lo anterior, se identifican las siguientes tablas y su interacción con los roles definidos de la siguiente forma:
+
+<b>-Tabla User:</b> (usuario/cliente), tabla ras.
+
+<b>-Tabla Product:</b> (Producto): Tabla que contiene edido.
+
+<b>-Tabla OrderDetail:</b> (Detalle de la orden): Tabla que contiene eompra.
 
 </i>Administradores: </i><br/>
 El usuario root de la base datos está en custodia del administrador de bases de datos, contratado directamente por la organización. Durante el horario laboral este administrador se conecta desde el equipo de computo asignado, ubicado en la sede principal de la organización. Durante horarios no laborales, tiene la opción de conectarse a través de una VPN, especialmente configurada para este fin. Este ultimo método fue aprobado con el objetivo de realizar ventanas de mantenimiento y solucionar incidentes.
