@@ -25,7 +25,7 @@ Proceso de identificación de activos: Desde el área de riesgos se establecen f
  - Hardware (Dispositivos físicos que apoyan la generación, procesamiento, almacenamiento o eliminación de información.
  - Base de Datos: Información estructurada, entidades de datos con sentido y orden lógico dentro de un sistema y una relación con la organización.
  
-<b>Propietario del Activo:</br></b> Ente con responsabilidad sobre la información. proceso que lo requiere para su operación.
+<b>Propietario del Activo:</b> Ente con responsabilidad sobre la información. proceso que lo requiere para su operación.
 
 <b>Ubicación:</b> Ubicación física y/o lógica del activo.
 
