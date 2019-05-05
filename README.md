@@ -243,5 +243,6 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 <li>Gestión de Activos: ISO 27001:2013</li>
 <li>NIST Cybersecurity Framework 1.1</li>
 <li>Marco Regulatorio:www.sic.gov.co/repositorio-de-normatividad</li>
+<li>Marco Regulatorio:https://www.superfinanciera.gov.co/inicio/normativa-60706</li>
 <li>Seguridad en MySQL:https://dev.mysql.com/doc/refman/8.0/en/security-html</li>
 <li>Control de acceso MySql:https://dev.mysql.com/doc/refman/8.0/en/access-control.html</li>
