@@ -196,17 +196,17 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 ![MetodologiaRiesgos2](https://user-images.githubusercontent.com/50051518/57166783-e2ef6900-6dc0-11e9-8177-8807d2499caa.jpg)
 
 <h2><strong>1. Identificaci&oacute;n de Activos de Informaci&oacute;n</strong></h2>
-<p><strong>La identificaci&oacute;n de Activos de Informaci&oacute;n se realiza teniendo en cuenta todos los actores que participan para dar servicio al e-commerce a nivel de:&nbsp;</strong></p>
+<p>La identificaci&oacute;n de Activos de Informaci&oacute;n se realiza teniendo en cuenta todos los actores que participan para dar servicio al e-commerce a nivel de:&nbsp;</p>
 <ul>
-<li><strong>Infraestructura tecnol&oacute;gica</strong></li>
-<li><strong>Software, aplicaciones, bases de datos</strong></li>
-<li><strong>Personal de la operaci&oacute;n</strong></li>
+<li>Infraestructura tecnol&oacute;gica</li>
+<li>Software, aplicaciones, bases de datos</li>
+
 </ul>
-<p><strong>Estos Activos se evidencian en los controles anteriormente nombrados, y se clasifican seg&uacute;n su nivel de importancia (ver control I.AM-5)</strong></p>
+<p>Estos Activos se evidencian en los controles anteriormente nombrados, y se clasifican seg&uacute;n su nivel de importancia (ver control I.AM-5)</p>
 <h2><strong>2. Identificaci&oacute;n de Amenazas y Vulnerabilidades&nbsp;</strong></h2>
-<p><strong>Una Amenaza tiene el potencial de causar un incidente, afectando de manera directa o indirecta los activos de informaci&oacute;n de la Corporaci&oacute;n. Por ejemplo, destrucci&oacute;n no autorizada, revelaci&oacute;n, modificaci&oacute;n, corrupci&oacute;n, indisponibilidad o p&eacute;rdida de la informaci&oacute;n</strong>.</p>
+<p>Una Amenaza tiene el potencial de causar un incidente, afectando de manera directa o indirecta los activos de informaci&oacute;n de la Corporaci&oacute;n. Por ejemplo, destrucci&oacute;n no autorizada, revelaci&oacute;n, modificaci&oacute;n, corrupci&oacute;n, indisponibilidad o p&eacute;rdida de la informaci&oacute;n.</p>
 <h2><strong>3. Valoraci&oacute;n de Probabilidad e Impacto</strong></h2>
-<p><strong>A continuaci&oacute;n se identifican las valoraciones que se definieron para la Gesti&oacute;n de Riesgos de Ciberseguridad:</strong></p>
+<p>A continuaci&oacute;n se identifican las valoraciones que se definieron para la Gesti&oacute;n de Riesgos de Ciberseguridad:</p>
 
 <ul style="list-style-type: circle;">
 <li>
@@ -227,7 +227,7 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 ![Impacto](https://user-images.githubusercontent.com/50051518/57166841-07e3dc00-6dc1-11e9-99e1-af266b33a2e9.jpg)
 
 <b>IDENTIFICACIÓN DE RIESGOS: </b>
-<p><strong>A continuación se relacionan los escenarios de riesgos identificados, con su respectiva valoración de probabilidad e impacto y el resultado arroja el Riesgo Inherente.</strong></p>
+<p>A continuación se relacionan los escenarios de riesgos identificados, con su respectiva valoración de probabilidad e impacto y el resultado arroja el Riesgo Inherente.</p>
 
 ![Riesgos1](https://user-images.githubusercontent.com/50051518/57200768-50cc9980-6f55-11e9-929c-05cd88675c3d.jpg)
 
@@ -237,3 +237,6 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 <p><strong>En el mapa de calor se observa la ubicación de los 7 riesgos identificados según su valoración: </strong></p>
 
 ![MapaRIesgos](https://user-images.githubusercontent.com/50051518/57200772-5924d480-6f55-11e9-984b-b576e6b9f16a.jpg)
+
+<h2>REFERENCIAS BIBLIOGRÁFICAS </h2>
+<li>Gestión de Riesgos: ISO 31000:2018</li>
