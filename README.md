@@ -238,6 +238,17 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 
 ![MapaRIesgos](https://user-images.githubusercontent.com/50051518/57200772-5924d480-6f55-11e9-984b-b576e6b9f16a.jpg)
 
+
+
+<h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
+
+
+
+<h2> Control PR.DS-3: Los activos se administran formalmente mediante un proceso de eliminación, transferencias y disposición</h2>
+
+
+<h2> Control PR.DS-4: Capacidad adecuada para garantizar la disponibilidad</h2>
+
 <h2>REFERENCIAS </h2>
 <li>Gestión de Riesgos: ISO 31000:2018</li>
 <li>Gestión de Activos: ISO 27001:2013</li>
