@@ -239,6 +239,28 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 ![MapaRIesgos](https://user-images.githubusercontent.com/50051518/57200772-5924d480-6f55-11e9-984b-b576e6b9f16a.jpg)
 
 
+<h2>Control PR.AC-1: las identidades y credenciales se emiten, gestionan, verifican, revocan y auditan.</h2>
+
+Para implementar este control en primera medida se crean los diferentes roles en la base de datos y se asignan los permisos correspondientes, de conformidad con lo descrito en los controles de identificación:
+
+![creacion de roles y privilegios](https://user-images.githubusercontent.com/50051421/57586313-d0a8b580-74b9-11e9-9e5b-5789c4f636a2.png)
+
+Los privilegios asignados a cada rol son los siguientes:
+
+* rol_administrador: Todos los privilegios en todo las bases de datos del sistema.
+
+* rol_propietario: INSERT, SELECT, UPDATE, DELETE en la base de datos "bsm".
+
+* rol_conexion: SELECT en la base de datos "bsm".
+
+* rol_operario Todos los privilegios e la base de datos "bsm". 
+
+Una vez definidos los roles se crean 4 usuarios y se asignan a cada unos de los roles definidos de la siguiente forma:
+
+![crear usuarios](https://user-images.githubusercontent.com/50051421/57586415-26ca2880-74bb-11e9-8416-5d768630e03e.png)
+
+![asignacion de roles](https://user-images.githubusercontent.com/50051421/57587135-99400600-74c5-11e9-9363-b46d11fd357c.png)
+
 
 <h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
 
