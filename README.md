@@ -299,6 +299,9 @@ Procesador - Menos de 10% de capacidad
 
 Adicionalmente el motor de base de datos cuenta con virtualización lo cual permite la replica del mismo y la gestión de capacidad en tiempo real. Replicación bit a bit de la base de datos para garantizar la disponibilidad y continuidad de la información.
 
+![diagrama arq5](https://user-images.githubusercontent.com/48939055/57588593-170f0c00-74dc-11e9-86b6-f52de59d36cb.jpg)
+
+
 <h2>REFERENCIAS </h2>
 <li>Gestión de Riesgos: ISO 31000:2018</li>
 <li>Gestión de Activos: ISO 27001:2013</li>
