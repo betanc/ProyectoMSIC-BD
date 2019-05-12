@@ -254,31 +254,49 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 <h2>Control ID.RA-3: Las amenazas, tanto internas como externas, están identificadas y documentadas.</h2>
 
 
-<h2>Control PR.AC-1: las identidades y credenciales se emiten, gestionan, verifican, revocan y auditan.</h2>
+<h2>Control PR.AC-1: Las identidades y credenciales se emiten, gestionan, verifican, revocan y auditan.</h2>
 
-Para implementar este control en primera medida se crean los diferentes roles en la base de datos y se asignan los permisos correspondientes, de conformidad con lo descrito en los controles de identificación:
+Para implementar este control, en primera medida se crean los diferentes roles de la base de datos y se asignan los permisos correspondientes de conformidad con lo descrito en los controles de identificación:
 
 ![creacion de roles y privilegios](https://user-images.githubusercontent.com/50051421/57587950-b0392500-74d2-11e9-9ae1-605c4e5e4d75.png)
 
 Los privilegios asignados a cada rol son los siguientes:
 
-* rol_administrador: Todos los privilegios en todo las bases de datos del sistema.
+* rol_administrador: Todos los privilegios en todas las bases de datos del sistema.
 
 * rol_propietario: INSERT, SELECT, UPDATE, DELETE en la base de datos "bsm".
 
 * rol_conexion: SELECT en la base de datos "bsm".
 
-* rol_operario Todos los privilegios e la base de datos "bsm". 
+* rol_operario Todos los privilegios en la base de datos "bsm". 
 
-Una vez definidos los roles se crean 4 usuarios y se asignan a cada unos de los roles definidos de la siguiente forma:
+Una vez definidos los roles se crean los usuarios, asignando a cada uno de ellos su respectivo rol, de la siguiente forma:
 
 ![crear usuarios](https://user-images.githubusercontent.com/50051421/57587951-b0392500-74d2-11e9-9cc9-0ff3e81b4cec.png)
 
 ![asignacion de roles](https://user-images.githubusercontent.com/50051421/57587949-b0392500-74d2-11e9-8313-22cb071d5d67.png)
 
+Posteriormente se verifica en la tabla usuarios de MySQL que los roles y usuarios se encuentren efectivamente creados: 
+
 ![verificacion roles](https://user-images.githubusercontent.com/50051421/57587953-b29b7f00-74d2-11e9-9b82-89d06d7a8b2c.png)
 
+Finalmente, para verificar los privilegios asignados a cada usuario se utilizan los siguientes comandos:
 
+![auditoria](https://user-images.githubusercontent.com/50051421/57588160-f8a61200-74d5-11e9-8b3c-d23b2693c95a.png)
+
+A manera de ejemplo, se muestran los privilegios configurados para el usuario "propietario":
+
+![au verificacion roles 2](https://user-images.githubusercontent.com/50051421/57588159-f8a61200-74d5-11e9-8672-15c952218740.png)
+
+<h2>PR.AC-4: Los permisos de acceso son autorizados y gestionados.</h2>
+
+Para implementar este control se ha creado el usuario "seguridad" quien tendra los privilegios necesarios para gestionar permisos de los de los usuarios de la base de datos:
+
+![rol seguridad](https://user-images.githubusercontent.com/50051421/57588325-255b2900-74d8-11e9-8613-836b98cfe0ac.png)
+
+El usuario "seguridad" no tiene privilegios diferentes a crear o actualizar privilegios de usuarios. A manera de ejemplo se presenta las salidas cuando este usuario desea consultar informacion de la base de datos "bsm", accion que es denegada. A su vez se presenta el resultado cuando éste reaaliza una accion permitida, como lo es la actualizacion de la contraseña de un usuario. 
+
+![prueba rol seguridad](https://user-images.githubusercontent.com/50051421/57588878-ed0c1880-74e0-11e9-812a-033e360db14e.png)
 
 <h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
 
