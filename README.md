@@ -243,7 +243,7 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 
 Para implementar este control en primera medida se crean los diferentes roles en la base de datos y se asignan los permisos correspondientes, de conformidad con lo descrito en los controles de identificación:
 
-![creacion de roles y privilegios](https://user-images.githubusercontent.com/50051421/57586313-d0a8b580-74b9-11e9-9e5b-5789c4f636a2.png)
+![creacion de roles y privilegios](https://user-images.githubusercontent.com/50051421/57587950-b0392500-74d2-11e9-9ae1-605c4e5e4d75.png)
 
 Los privilegios asignados a cada rol son los siguientes:
 
@@ -257,9 +257,12 @@ Los privilegios asignados a cada rol son los siguientes:
 
 Una vez definidos los roles se crean 4 usuarios y se asignan a cada unos de los roles definidos de la siguiente forma:
 
-![crear usuarios](https://user-images.githubusercontent.com/50051421/57586415-26ca2880-74bb-11e9-8416-5d768630e03e.png)
+![crear usuarios](https://user-images.githubusercontent.com/50051421/57587951-b0392500-74d2-11e9-9cc9-0ff3e81b4cec.png)
 
-![asignacion de roles](https://user-images.githubusercontent.com/50051421/57587135-99400600-74c5-11e9-9363-b46d11fd357c.png)
+![asignacion de roles](https://user-images.githubusercontent.com/50051421/57587949-b0392500-74d2-11e9-8313-22cb071d5d67.png)
+
+![verificacion roles](https://user-images.githubusercontent.com/50051421/57587953-b29b7f00-74d2-11e9-9b82-89d06d7a8b2c.png)
+
 
 
 <h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
