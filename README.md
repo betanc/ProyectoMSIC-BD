@@ -274,6 +274,16 @@ Una vez definidos los roles se crean 4 usuarios y se asignan a cada unos de los 
 
 <h2> Control PR.DS-4: Capacidad adecuada para garantizar la disponibilidad</h2>
 
+Las bases de datos y demás dispositivos de la red y sistema de información dedicado a prestar servicios e-commerce son monitoreados de acuerdo a las necesidades de capacidad de los sistemas en operación y se proyectan las futuras demandas en infraestructura y operación de acuerdo al crecimiento en ventas de la compañía, a fin de garantizar un procesamiento y almacenamiento adecuados. 
+Se cuenta con un protocolo para informar al personal directivo y de operación Informar las necesidades detectadas al identificar potenciales cuellos de botella, que podrían plantear una amenaza a la seguridad o a la continuidad de operaciones y del procesamiento, y para que se pueda planificar y ejecutar una adecuada acción correctiva. 
+Para la generación de alertas y toma de acciones se han definidos rangos críticos para el servidor de base de datos y el motor de base de datos de la siguiente forma: 
+
+Disco duro - Menos de 10% de capacidad del disco duro 
+Memoria RAM - Menos de 15% de capacidad 
+Procesador - Menos de 10% de capacidad 
+
+Adicionalmente el motor de base de datos cuenta con virtualización lo cual permite la replica del mismo y la gestión de capacidad en tiempo real. Replicación bit a bit de la base de datos para garantizar la disponibilidad y continuidad de la información.
+
 <h2>REFERENCIAS </h2>
 <li>Gestión de Riesgos: ISO 31000:2018</li>
 <li>Gestión de Activos: ISO 27001:2013</li>
