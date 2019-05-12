@@ -238,6 +238,22 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 
 ![MapaRIesgos](https://user-images.githubusercontent.com/50051518/57200772-5924d480-6f55-11e9-984b-b576e6b9f16a.jpg)
 
+<h2>Control ID.RA-1: Las Vulnerabilidades de los Activos son identificadas y documentadas</h2>
+![1](https://user-images.githubusercontent.com/50051518/57588504-bb904e80-74da-11e9-827a-94fc844b6185.png)
+![2](https://user-images.githubusercontent.com/50051518/57588496-b9c68b00-74da-11e9-957e-d19d76483cf7.png)
+![3](https://user-images.githubusercontent.com/50051518/57588497-b9c68b00-74da-11e9-9e79-ec9a47ff0972.png)
+![4](https://user-images.githubusercontent.com/50051518/57588498-b9c68b00-74da-11e9-9200-75938b1ef310.png)
+![5](https://user-images.githubusercontent.com/50051518/57588499-ba5f2180-74da-11e9-8fb6-8ac241e34a06.png)
+![6](https://user-images.githubusercontent.com/50051518/57588500-ba5f2180-74da-11e9-9764-394b038a104e.png)
+![7](https://user-images.githubusercontent.com/50051518/57588501-ba5f2180-74da-11e9-8a5c-9792f56d4542.png)
+![8](https://user-images.githubusercontent.com/50051518/57588502-baf7b800-74da-11e9-9087-9798b17c1b44.png)
+![9](https://user-images.githubusercontent.com/50051518/57588503-bb904e80-74da-11e9-807d-9a895b04a23d.png)
+
+
+<h2>Control ID.RA-2: La inteligencia sobre amenazas cibernéticas se recibe de foros y fuentes de intercambio de información.</h2>
+
+<h2>Control ID.RA-3: Las amenazas, tanto internas como externas, están identificadas y documentadas.</h2>
+
 
 <h2>Control PR.AC-1: las identidades y credenciales se emiten, gestionan, verifican, revocan y auditan.</h2>
 
