@@ -423,12 +423,17 @@ A continuación, se expondrá la implementación de algunas medidas de seguridad
 
 ![ImgProy11](https://user-images.githubusercontent.com/50051493/57589530-1f6e4380-74ea-11e9-8b94-a62f5f8d2128.PNG)
 
+<br><h3>3.5 Asegurese  de que 'Mysqld' no este iniciando con '--Skip-grant-tables'</h3></br>
+
+
 ![ImgProy12](https://user-images.githubusercontent.com/50051493/57589531-2006da00-74ea-11e9-839b-d54325348de9.PNG)
 
 ![ImgProy13](https://user-images.githubusercontent.com/50051493/57589532-2006da00-74ea-11e9-8c1e-f85f45f34e2f.PNG)
 
 ![ImgProy14](https://user-images.githubusercontent.com/50051493/57589533-2006da00-74ea-11e9-8ccf-ca5dae140dfb.PNG)
 
+
+<br><h3>3.6 Asegurese de que '--Skip-symbolic-links' este habilitado</h3></br>
 ![ImgProy15](https://user-images.githubusercontent.com/50051493/57589534-2006da00-74ea-11e9-9e51-e242ae1ab517.PNG)
 
 ![ImgProy16](https://user-images.githubusercontent.com/50051493/57589535-2006da00-74ea-11e9-9ce1-0f566f391ee1.PNG)
