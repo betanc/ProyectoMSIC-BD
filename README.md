@@ -364,9 +364,9 @@ Monitoreo de capacidad de la base de datos con el cliente SQL Community:
 <br>
 <h2>PR.DS-2: Los datos en transito son protegidos </h2>
 </br>
-El cifrado de capa de sockets seguros (SSL) habilita la transmisión de datos cifrados a través de la red entre una instancia de MySql Server y una aplicación cliente.
+El cifrado SSL habilita la transmisión de datos cifrados a través de la red entre una instancia de MySql Server y una aplicación cliente.
 SSL es un protocolo para establecer un canal de comunicaciones seguro para evitar la interceptación de información esencial o confidencial por la red y otras comunicaciones de Internet. SSL permite al cliente y al servidor autenticar la identidad de cada uno. Después de autenticar a los participantes, SSL proporciona conexiones cifradas entre ellos para proteger la transmisión de los mensajes.
-El Controlador JDBC para MySqlL Comunity Server proporciona una infraestructura para habilitar y deshabilitar el cifrado en una conexión determinada según las propiedades de conexión especificadas por el usuario y la configuración del cliente y el servidor. El usuario puede especificar la ubicación del almacén de certificados y la contraseña, un nombre de host que se va a utilizar para validar el certificado y cuándo cifrar el canal de comunicaciones.
+MySql Comunity Server proporciona una infraestructura para habilitar y deshabilitar el cifrado en una conexión determinada según las propiedades de conexión especificadas por el usuario y la configuración del cliente y el servidor. El usuario puede especificar la ubicación del almacén de certificados y la contraseña, un nombre de host que se va a utilizar para validar el certificado y cuándo cifrar el canal de comunicaciones.
 Al habilitar el cifrado SSL se aumenta la seguridad de los datos que se transmiten a través de redes entre las instancias de MySql Community Server y aplicaciones. No obstante, también reduce el rendimiento.
 <br>A continuación, se muestra la evidencia de cómo se habilito el cifrado SSL en Mysql Comunity Server utilizando el Wizard de Mysql Workbench:</br>
 
