@@ -366,6 +366,29 @@ El cifrado de bases de datos es una buena práctica para prevenir y protegerse d
 
 <h2> Control PR.DS-3: Los activos se administran formalmente mediante un proceso de eliminación, transferencias y disposición</h2>
 
+La información intercambiada o almacenada es el activo principal que debe ser protegido por las opciones de seguridad presentes en los servicios tecnológicos, principalmente en bases de datos. Son las características de la información las que guían que elementos de seguridad deben ser empleados. Teniendo en cuenta lo anterior, se hace uso de la clasificación de seguridad vigente de acuerdo a la clasificación de activos anteriormente presentados.
+De acuerdo lo anterior, para el acceso o intercambio de la información contenida en las bases de datos o a la base de datos como tal, se estable un compromiso mandatorio y documentado el cual debe ser aceptado por el tercero de forma explícita mediante un contrato legal para garantizar que el tercero tenga responsabilidad para proporcionar mecanismos y controles de seguridad contemplados y aplicados actualmente que incluyen pero no se limitan a: no repudio, autenticación, trazabilidad e integridad para los mensajes intercambiados y almacenados. 
+Políticas a tener en cuenta:
+
+El intercambio de información con cualquier tercero debe basarse en la constitución de una relación de confianza en cuanto a la protección de los activos de información. Dentro de los requisitos de estas relaciones de confianza deben incorporarse como parte activa la aplicaciones de controles para creación, procesamiento, transito, almacenamiento y eliminación de información.
+Hacer uso de mecanismos que garanticen la autenticación del tercero.  Es decir, hay que garantizar que se hace uso de un mecanismo por el cual se ejecute una prueba que solo puede ser superada por un tercero valido para hacer uso de los servicios autenticación y autorización.
+
+Los siguientes pasos son los necesarios para establecer un intercambio con un tercero:
+(1)	Determinar las opciones de seguridad que aplican para el tercero de acuerdo a las operaciones sobre las cuales va a hacer uso. Lo anterior basado en las consideraciones incluidas en este documento y el estudio del caso particular.  
+(2)	El uso de los mecanismos de autenticación es obligatorio para todos los servicios. Debe pues entonces configurarse esta verificación para el servicio. Lo anterior de acuerdo al apartado de autenticación y autorización de servicios de este documento. 
+(3)	En orden de cumplir el anterior numeral, debe importarse la llave publica del tercero asociada a esta relación. Puede ser una ya usada para el consumo de otro servicio, pero debe garantizarse que dicha llave es usada solo por una aplicación del tercero o un área del tercero. 
+(4)	Debe configurarse, al menos hasta que el mensaje llegue a la red interna de los servicios ecommerce, seguridad por canal lo que en términos prácticos se implementa como comunicación a través de HTTPS.
+(5)	Debe limitarse el tráfico hacia la bd de forma que solo pueda ser alcanzado por el elemento de red que permite la comunicación con los terceros. 
+(6)	Debe configurarse la autorización, al nivel permitido por la herramienta de gestión de seguridad para los servicios web de forma que el tercero solo tenga acceso explícito al servicio web que requiere y a las operaciones específicas necesarias. 
+(7)	Debe configurarse la exigibilidad de la firma de los mensajes por parte de quien hace el intercambio y el firmado de los mensajes salientes. Lo anterior de acuerdo al apartado de integridad y no repudio de servicios de este documento. 
+(8)	Debe configurarse un mecanismo de marcas de tiempo, timestamp, para evitar ataques de repetición o bien para toda la interacción o bien para las operaciones que afectan la información, es decir, aquellas que no pueden ser clasificadas como de “lectura”.
+(9)	Si alguno de los mensajes intercambiados por el tercero en una operación específica contiene al menos un campo que esté clasificado como confidencial, debe cifrarse la totalidad del mensaje. 
+(10)	Debe configurarse la trazabilidad, auditoría de los mensajes. Lo anterior de acuerdo al apartado de auditoria de servicios de este documento.
+(11)	Revisar, auditar, que las opciones de seguridad definidas en el numeral 1 de este listado hayan sido aplicadas correctamente en el ambiente productivo.
+(12)	Debe construirse un protocolo claro y dejarse registro sobre la asignación, renovación o cambio de las llaves asignadas para acceder a la información o para cifrarla y protegerla.
+
+ 
+
 
 <h2> Control PR.DS-4: Capacidad adecuada para garantizar la disponibilidad</h2>
 
