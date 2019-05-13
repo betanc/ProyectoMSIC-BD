@@ -254,6 +254,31 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 <h2>Control ID.RA-3: Las amenazas, tanto internas como externas, están identificadas y documentadas.</h2>
 
 
+
+
+<h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
+
+El Análisis de Impacto al Negocio (BIA por sus siglas en Inglés), tiene como propósito principal evaluar el impacto potencial que tendría la interrupción a través del tiempo de sus servicios y los procesos que los soportan, para a partir de este establecer los objetivos de recuperación del negocio dentro de periodos de tiempo que sean aceptables para la venta de productos médicos a través de internet. 
+Definiciones:
+BIA: Por su sigla en inglés (Business Impact Analysis). Proceso de análisis de actividades y efecto que en un negocio podría tener sobre ellas la interrupción de procesos. ISO 22301:2012.
+
+MTPD: Por su sigla en inglés (Maximum Tolerable Period of Disruption). Tiempo que podría tomar para que los efectos adversos que se puedan dar como resultado de no proveer un producto/servicio o desarrollar una actividad, pueda llegar a ser inaceptable. ISO 22301:2012.
+
+RPO: Por su sigla en inglés (Recovery Point Objective). Punto en el cual la información utilizada por una actividad debe ser restaurada para colocar en funcionamiento o habilitar dicha actividad. ISO 22301:2012.
+
+RTO: Por su sigla en inglés (Recovery Time Objective). Periodo de tiempo que sigue al incidente y en el cual: El producto o servicio debe ser restaurado, o la actividad debe ser restaurada, o los recursos deben estar recuperados. ISO 22301:2012.
+
+De acuerdo a lo anterior, se define medir el impacto de cara a los clientes que consumen los servicios e-commerce y que se benefician del servicio prestado por la organización, al mismo tiempo que representan la principal fuente de ingresos.
+
+Los impactos se han definido como:
+
+![Screenshot_2](https://user-images.githubusercontent.com/48939055/57593172-e50fa100-74ff-11e9-8fa9-212b8d75656f.jpg)
+
+Como resultado del análisis de Impacto tenermos:
+
+![Screenshot_1](https://user-images.githubusercontent.com/48939055/57593171-e50fa100-74ff-11e9-8c24-3dc11c1b7903.jpg)
+
+
 <h2>Control PR.AC-1: Las identidades y credenciales se emiten, gestionan, verifican, revocan y auditan.</h2>
 
 Para implementar este control, en primera medida se crean los diferentes roles de la base de datos y se asignan los permisos correspondientes de conformidad con lo descrito en los controles de identificación:
@@ -311,7 +336,6 @@ A manera de ejemplo, se muestran los privilegios configurados para el usuario "p
 
 ![au verificacion roles 2](https://user-images.githubusercontent.com/50051421/57588159-f8a61200-74d5-11e9-8672-15c952218740.png)
 
-<h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
 
 
 
