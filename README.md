@@ -270,7 +270,7 @@ Los privilegios asignados a cada rol son los siguientes:
 
 * rol_operario Todos los privilegios en la base de datos "bsm". 
 
-Una vez definidos los roles se crean los usuarios, asignando a cada uno de ellos su respectivo rol, de la siguiente forma:
+Una vez definidos los roles se crean los usuarios, asignando a cada uno de ellos su respectivo rol de la siguiente manera:
 
 ![crear usuarios](https://user-images.githubusercontent.com/50051421/57587951-b0392500-74d2-11e9-9cc9-0ff3e81b4cec.png)
 
@@ -280,13 +280,18 @@ Posteriormente se verifica en la tabla usuarios de MySQL que los roles y usuario
 
 ![verificacion roles](https://user-images.githubusercontent.com/50051421/57587953-b29b7f00-74d2-11e9-9b82-89d06d7a8b2c.png)
 
-Finalmente, para verificar los privilegios asignados a cada usuario se utilizan los siguientes comandos:
+De otra parte, se ajustan las politicas de contraseñas para los usuarios de la siguiente forma:
 
-![auditoria](https://user-images.githubusercontent.com/50051421/57588160-f8a61200-74d5-11e9-8b3c-d23b2693c95a.png)
+![contraseñas fuertes](https://user-images.githubusercontent.com/50051421/57590053-99a0c700-74ee-11e9-812d-baa5407c6b93.JPG)
 
-A manera de ejemplo, se muestran los privilegios configurados para el usuario "propietario":
+El resultado obtenido es el siguiente:
 
-![au verificacion roles 2](https://user-images.githubusercontent.com/50051421/57588159-f8a61200-74d5-11e9-8672-15c952218740.png)
+1. Logitud de contraseñas: 14 caracteres.<br/>
+2. Caracteres en minúscula y en mayúscula.<br/>
+3. Al menos 1 número.
+4. Al menos 1 caracter especial.<br/>
+
+![contraseñas fuertes 2](https://user-images.githubusercontent.com/50051421/57590051-99083080-74ee-11e9-8052-073d001d84ac.JPG)
 
 <h2>PR.AC-4: Los permisos de acceso son autorizados y gestionados.</h2>
 
@@ -294,9 +299,17 @@ Para implementar este control se ha creado el usuario "seguridad" quien tendra l
 
 ![rol seguridad](https://user-images.githubusercontent.com/50051421/57588325-255b2900-74d8-11e9-8613-836b98cfe0ac.png)
 
-El usuario "seguridad" no tiene privilegios diferentes a crear o actualizar privilegios de usuarios. A manera de ejemplo se presenta las salidas cuando este usuario desea consultar informacion de la base de datos "bsm", accion que es denegada. A su vez se presenta el resultado cuando éste reaaliza una accion permitida, como lo es la actualizacion de la contraseña de un usuario. 
+El usuario "seguridad" unicamente cuenta con privilegios para crear o actualizar permisos de otros usuarios. A manera de ejemplo se presenta el resultado de una consulta de informacion sobre la base de datos "bsm", como se pruede apreciar la accion que es denegada. A su vez, se presenta el resultado de una actualizacion de la contraseña de un usuario con resultados satisfactorios. 
 
 ![prueba rol seguridad](https://user-images.githubusercontent.com/50051421/57588878-ed0c1880-74e0-11e9-812a-033e360db14e.png)
+
+El usurio "seguridad" puede verificar los privilegios asignados a cada usuario, para lo cual se utiliza los siguientes comandos:
+
+![auditoria](https://user-images.githubusercontent.com/50051421/57588160-f8a61200-74d5-11e9-8b3c-d23b2693c95a.png)
+
+A manera de ejemplo, se muestran los privilegios configurados para el usuario "propietario":
+
+![au verificacion roles 2](https://user-images.githubusercontent.com/50051421/57588159-f8a61200-74d5-11e9-8672-15c952218740.png)
 
 <h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
 
