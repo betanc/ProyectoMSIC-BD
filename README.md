@@ -238,6 +238,303 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 
 ![MapaRIesgos](https://user-images.githubusercontent.com/50051518/57200772-5924d480-6f55-11e9-984b-b576e6b9f16a.jpg)
 
+<h2>Control ID.RA-1: Las Vulnerabilidades de los Activos son identificadas y documentadas</h2>
+
+![1](https://user-images.githubusercontent.com/50051518/57588569-da431500-74db-11e9-9315-75c5faf7dda3.png)
+![2](https://user-images.githubusercontent.com/50051518/57588568-da431500-74db-11e9-97b4-d561790f806e.png)
+![3](https://user-images.githubusercontent.com/50051518/57588583-0e1e3a80-74dc-11e9-9abd-d3bb74d04a74.png)
+![4](https://user-images.githubusercontent.com/50051518/57588584-0e1e3a80-74dc-11e9-9810-0bdd7526fdc2.png)
+![5](https://user-images.githubusercontent.com/50051518/57588585-0e1e3a80-74dc-11e9-80e9-ae9932813dec.png)
+![6](https://user-images.githubusercontent.com/50051518/57588586-0e1e3a80-74dc-11e9-8557-6091a0553b20.png)
+![7](https://user-images.githubusercontent.com/50051518/57588587-0eb6d100-74dc-11e9-98bd-0653a8dcdda3.png)
+![8](https://user-images.githubusercontent.com/50051518/57588589-0eb6d100-74dc-11e9-8692-b3201d19b43d.png)
+![9](https://user-images.githubusercontent.com/50051518/57588582-0d85a400-74dc-11e9-9891-e0ea8bca9a77.png)
+
+<h2>Control ID.RA-2: La inteligencia sobre amenazas cibernéticas se recibe de foros y fuentes de intercambio de información.</h2>
+
+
+![91](https://user-images.githubusercontent.com/50051518/57596177-e5fbff00-750e-11e9-9d35-c9d873f3f638.png)
+![92](https://user-images.githubusercontent.com/50051518/57596178-e5fbff00-750e-11e9-9474-24e124977eee.png)
+![93](https://user-images.githubusercontent.com/50051518/57596179-e5fbff00-750e-11e9-913c-8823d74e5c89.png)
+![94](https://user-images.githubusercontent.com/50051518/57596180-e5fbff00-750e-11e9-89bb-f90691f81faf.png)
+![95](https://user-images.githubusercontent.com/50051518/57596181-e6949580-750e-11e9-97f9-90586eeee80a.png)
+
+
+
+<h2>Control ID.RA-3: Las amenazas, tanto internas como externas, están identificadas y documentadas.</h2>
+
+![96](https://user-images.githubusercontent.com/50051518/57596121-94537480-750e-11e9-9c92-63c3e0392ebd.png)
+![97](https://user-images.githubusercontent.com/50051518/57596120-94537480-750e-11e9-8c58-890539a56c16.png)
+
+
+
+<h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
+
+El Análisis de Impacto al Negocio (BIA por sus siglas en Inglés), tiene como propósito principal evaluar el impacto potencial que tendría la interrupción a través del tiempo de sus servicios y los procesos que los soportan, para a partir de este establecer los objetivos de recuperación del negocio dentro de periodos de tiempo que sean aceptables para la venta de productos médicos a través de internet. 
+Definiciones:
+BIA: Por su sigla en inglés (Business Impact Analysis). Proceso de análisis de actividades y efecto que en un negocio podría tener sobre ellas la interrupción de procesos. ISO 22301:2012.
+
+MTPD: Por su sigla en inglés (Maximum Tolerable Period of Disruption). Tiempo que podría tomar para que los efectos adversos que se puedan dar como resultado de no proveer un producto/servicio o desarrollar una actividad, pueda llegar a ser inaceptable. ISO 22301:2012.
+
+RPO: Por su sigla en inglés (Recovery Point Objective). Punto en el cual la información utilizada por una actividad debe ser restaurada para colocar en funcionamiento o habilitar dicha actividad. ISO 22301:2012.
+
+RTO: Por su sigla en inglés (Recovery Time Objective). Periodo de tiempo que sigue al incidente y en el cual: El producto o servicio debe ser restaurado, o la actividad debe ser restaurada, o los recursos deben estar recuperados. ISO 22301:2012.
+
+De acuerdo a lo anterior, se define medir el impacto de cara a los clientes que consumen los servicios e-commerce y que se benefician del servicio prestado por la organización, al mismo tiempo que representan la principal fuente de ingresos.
+
+Los impactos se han definido como:
+
+![Screenshot_2](https://user-images.githubusercontent.com/48939055/57593172-e50fa100-74ff-11e9-8fa9-212b8d75656f.jpg)
+
+Como resultado del análisis de Impacto tenermos:
+
+![Screenshot_1](https://user-images.githubusercontent.com/48939055/57593171-e50fa100-74ff-11e9-8c24-3dc11c1b7903.jpg)
+
+
+<h2>Control PR.AC-1: Las identidades y credenciales se emiten, gestionan, verifican, revocan y auditan.</h2>
+
+Para implementar este control, en primera medida se crean los diferentes roles de la base de datos y se asignan los permisos correspondientes de conformidad con lo descrito en los controles de identificación:
+
+![creacion de roles y privilegios](https://user-images.githubusercontent.com/50051421/57587950-b0392500-74d2-11e9-9ae1-605c4e5e4d75.png)
+
+Los privilegios asignados a cada rol son los siguientes:
+
+* rol_administrador: Todos los privilegios en todas las bases de datos del sistema.
+
+* rol_propietario: INSERT, SELECT, UPDATE, DELETE en la base de datos "bsm".
+
+* rol_conexion: SELECT en la base de datos "bsm".
+
+* rol_operario Todos los privilegios en la base de datos "bsm". 
+
+Una vez definidos los roles se crean los usuarios, asignando a cada uno de ellos su respectivo rol de la siguiente manera:
+
+![crear usuarios](https://user-images.githubusercontent.com/50051421/57587951-b0392500-74d2-11e9-9cc9-0ff3e81b4cec.png)
+
+![asignacion de roles](https://user-images.githubusercontent.com/50051421/57587949-b0392500-74d2-11e9-8313-22cb071d5d67.png)
+
+Posteriormente se verifica en la tabla usuarios de MySQL que los roles y usuarios se encuentren efectivamente creados: 
+
+![verificacion roles](https://user-images.githubusercontent.com/50051421/57587953-b29b7f00-74d2-11e9-9b82-89d06d7a8b2c.png)
+
+De otra parte, se ajustan las politicas de contraseñas para los usuarios de la siguiente forma:
+
+![contraseñas fuertes](https://user-images.githubusercontent.com/50051421/57590053-99a0c700-74ee-11e9-812d-baa5407c6b93.JPG)
+
+El resultado obtenido es el siguiente:
+
+1. Logitud de contraseñas: 14 caracteres.<br/>
+2. Caracteres en minúscula y en mayúscula.<br/>
+3. Al menos 1 número.
+4. Al menos 1 caracter especial.<br/>
+
+![contraseñas fuertes 2](https://user-images.githubusercontent.com/50051421/57590051-99083080-74ee-11e9-8052-073d001d84ac.JPG)
+
+<h2>PR.AC-4: Los permisos de acceso son autorizados y gestionados.</h2>
+
+Para implementar este control se ha creado el usuario "seguridad" quien tendra los privilegios necesarios para gestionar permisos de los de los usuarios de la base de datos:
+
+![rol seguridad](https://user-images.githubusercontent.com/50051421/57588325-255b2900-74d8-11e9-8613-836b98cfe0ac.png)
+
+El usuario "seguridad" unicamente cuenta con privilegios para crear o actualizar permisos de otros usuarios. A manera de ejemplo se presenta el resultado de una consulta de informacion sobre la base de datos "bsm", como se pruede apreciar la accion que es denegada. A su vez, se presenta el resultado de una actualizacion de la contraseña de un usuario con resultados satisfactorios. 
+
+![prueba rol seguridad](https://user-images.githubusercontent.com/50051421/57588878-ed0c1880-74e0-11e9-812a-033e360db14e.png)
+
+El usurio "seguridad" puede verificar los privilegios asignados a cada usuario, para lo cual se utiliza los siguientes comandos:
+
+![auditoria](https://user-images.githubusercontent.com/50051421/57588160-f8a61200-74d5-11e9-8b3c-d23b2693c95a.png)
+
+A manera de ejemplo, se muestran los privilegios configurados para el usuario "propietario":
+
+![au verificacion roles 2](https://user-images.githubusercontent.com/50051421/57588159-f8a61200-74d5-11e9-8672-15c952218740.png)
+
+<h2>PR.DS-1: Los datos en reposo están protegidos</h2>
+ 
+Teniendo en cuenta que la base de datos aloja datos sensibles, como por ejemplo información de tarjetas de crédito, password, datos médicos e informacion personal, con nivel alto de valor para el negocio, es crucialmente importante que esta información no se encuentre en texto plano, ya que se expone y facilita innecesariamente a un cibercriminal su labor en el caso de que ocurra un incidente de seguridad.
+
+Advanced Encryption Standard (AES) es un algoritmo de cifrado simétrico que requiere una contraseña para descifrar la información. Este esquema permite claves de un tamaño máximo de 256 bits, por lo cual es considerado uno de los protocolos más seguros. MySQL tiene configurado AES en 128 bits. Para que el cifrado sea mas robusto se cambia a 256 bits tal como se presenta a continuación:
+
+![2  aes 256](https://user-images.githubusercontent.com/50051421/57595568-76384500-750b-11e9-81ce-0c643860bd91.png)
+
+![3  aes 256](https://user-images.githubusercontent.com/50051421/57595569-76384500-750b-11e9-97bc-9b400d5a0c2c.png)
+
+MySQL provee la capacidad de cifrar la información con el algoritmo de AES. Se puede hacer llamada a la función con los siguientes comandos: para cifrar, AES_ENCRYPT y para descifrar, AES_DECRYPT. Lo anterior se indica a continuación:
+
+![encript](https://user-images.githubusercontent.com/50051421/57595938-87825100-750d-11e9-8e46-dcf7edb19e6a.png)
+
+El cifrado de bases de datos es una buena práctica para prevenir y protegerse del robo de información, de posibles malas configuraciones o ataques informáticos.
+
+<h2> Control PR.DS-3: Los activos se administran formalmente mediante un proceso de eliminación, transferencias y disposición</h2>
+
+La información intercambiada o almacenada es el activo principal que debe ser protegido por las opciones de seguridad presentes en los servicios tecnológicos, principalmente en bases de datos. Son las características de la información las que guían que elementos de seguridad deben ser empleados. Teniendo en cuenta lo anterior, se hace uso de la clasificación de seguridad vigente de acuerdo a la clasificación de activos anteriormente presentados.
+De acuerdo lo anterior, para el acceso o intercambio de la información contenida en las bases de datos o a la base de datos como tal, se estable un compromiso mandatorio y documentado el cual debe ser aceptado por el tercero de forma explícita mediante un contrato legal para garantizar que el tercero tenga responsabilidad para proporcionar mecanismos y controles de seguridad contemplados y aplicados actualmente que incluyen pero no se limitan a: no repudio, autenticación, trazabilidad e integridad para los mensajes intercambiados y almacenados. 
+Políticas a tener en cuenta:
+
+El intercambio de información con cualquier tercero debe basarse en la constitución de una relación de confianza en cuanto a la protección de los activos de información. Dentro de los requisitos de estas relaciones de confianza deben incorporarse como parte activa la aplicaciones de controles para creación, procesamiento, transito, almacenamiento y eliminación de información.
+Hacer uso de mecanismos que garanticen la autenticación del tercero.  Es decir, hay que garantizar que se hace uso de un mecanismo por el cual se ejecute una prueba que solo puede ser superada por un tercero valido para hacer uso de los servicios autenticación y autorización.
+
+Los siguientes pasos son los necesarios para establecer un intercambio con un tercero:
+(1)	Determinar las opciones de seguridad que aplican para el tercero de acuerdo a las operaciones sobre las cuales va a hacer uso. Lo anterior basado en las consideraciones incluidas en este documento y el estudio del caso particular.  
+(2)	El uso de los mecanismos de autenticación es obligatorio para todos los servicios. Debe pues entonces configurarse esta verificación para el servicio. Lo anterior de acuerdo al apartado de autenticación y autorización de servicios de este documento. 
+(3)	En orden de cumplir el anterior numeral, debe importarse la llave publica del tercero asociada a esta relación. Puede ser una ya usada para el consumo de otro servicio, pero debe garantizarse que dicha llave es usada solo por una aplicación del tercero o un área del tercero. 
+(4)	Debe configurarse, al menos hasta que el mensaje llegue a la red interna de los servicios ecommerce, seguridad por canal lo que en términos prácticos se implementa como comunicación a través de HTTPS.
+(5)	Debe limitarse el tráfico hacia la bd de forma que solo pueda ser alcanzado por el elemento de red que permite la comunicación con los terceros. 
+(6)	Debe configurarse la autorización, al nivel permitido por la herramienta de gestión de seguridad para los servicios web de forma que el tercero solo tenga acceso explícito al servicio web que requiere y a las operaciones específicas necesarias. 
+(7)	Debe configurarse la exigibilidad de la firma de los mensajes por parte de quien hace el intercambio y el firmado de los mensajes salientes. Lo anterior de acuerdo al apartado de integridad y no repudio de servicios de este documento. 
+(8)	Debe configurarse un mecanismo de marcas de tiempo, timestamp, para evitar ataques de repetición o bien para toda la interacción o bien para las operaciones que afectan la información, es decir, aquellas que no pueden ser clasificadas como de “lectura”.
+(9)	Si alguno de los mensajes intercambiados por el tercero en una operación específica contiene al menos un campo que esté clasificado como confidencial, debe cifrarse la totalidad del mensaje. 
+(10)	Debe configurarse la trazabilidad, auditoría de los mensajes. Lo anterior de acuerdo al apartado de auditoria de servicios de este documento.
+(11)	Revisar, auditar, que las opciones de seguridad definidas en el numeral 1 de este listado hayan sido aplicadas correctamente en el ambiente productivo.
+(12)	Debe construirse un protocolo claro y dejarse registro sobre la asignación, renovación o cambio de las llaves asignadas para acceder a la información o para cifrarla y protegerla.
+
+ 
+
+
+<h2> Control PR.DS-4: Capacidad adecuada para garantizar la disponibilidad</h2>
+
+Las bases de datos y demás dispositivos de la red y sistema de información dedicado a prestar servicios e-commerce son monitoreados de acuerdo a las necesidades de capacidad de los sistemas en operación y se proyectan las futuras demandas en infraestructura y operación de acuerdo al crecimiento en ventas de la compañía, a fin de garantizar un procesamiento y almacenamiento adecuados. 
+Se cuenta con un protocolo para informar al personal directivo y de operación Informar las necesidades detectadas al identificar potenciales cuellos de botella, que podrían plantear una amenaza a la seguridad o a la continuidad de operaciones y del procesamiento, y para que se pueda planificar y ejecutar una adecuada acción correctiva. 
+Para la generación de alertas y toma de acciones se han definidos rangos críticos para el servidor de base de datos y el motor de base de datos de la siguiente forma: 
+
+Disco duro - Menos de 10% de capacidad del disco duro 
+Memoria RAM - Menos de 15% de capacidad 
+Procesador - Menos de 10% de capacidad 
+
+Adicionalmente el motor de base de datos cuenta con virtualización lo cual permite la replica del mismo y la gestión de capacidad en tiempo real. Replicación bit a bit de la base de datos para garantizar la disponibilidad y continuidad de la información.
+
+![diagrama arq5](https://user-images.githubusercontent.com/48939055/57588593-170f0c00-74dc-11e9-86b6-f52de59d36cb.jpg)
+
+Monitoreo de capacidad de la base de datos con el cliente SQL Community:
+
+![monitoreocap](https://user-images.githubusercontent.com/48939055/57593312-797a0380-7500-11e9-95b4-3b32e6859efe.jpg)
+
+
+<br>
+<h2>PR.DS-2: Los datos en transito son protegidos </h2>
+</br>
+El cifrado SSL habilita la transmisión de datos cifrados a través de la red entre una instancia de MySql Server y una aplicación cliente.
+SSL es un protocolo para establecer un canal de comunicaciones seguro para evitar la interceptación de información esencial o confidencial por la red y otras comunicaciones de Internet. SSL permite al cliente y al servidor autenticar la identidad de cada uno. Después de autenticar a los participantes, SSL proporciona conexiones cifradas entre ellos para proteger la transmisión de los mensajes.
+<br>MySql Comunity Server proporciona una infraestructura para habilitar y deshabilitar el cifrado en una conexión determinada según las propiedades de conexión especificadas por el usuario y la configuración del cliente y el servidor. El usuario puede especificar la ubicación del almacén de certificados y la contraseña, un nombre de host que se va a utilizar para validar el certificado y cuándo cifrar el canal de comunicaciones.</br>
+Al habilitar el cifrado SSL se aumenta la seguridad de los datos que se transmiten a través de redes entre las instancias de MySql Community Server y aplicaciones. No obstante, también reduce el rendimiento.
+<br>A continuación, se muestra la evidencia de cómo se habilito el cifrado SSL en Mysql Comunity Server utilizando el Wizard de Mysql Workbench:</br>
+
+![Imgqwe1](https://user-images.githubusercontent.com/50051493/57594291-e42d3e00-7504-11e9-8b23-862a56e001b9.PNG)
+
+![Imgqwe2](https://user-images.githubusercontent.com/50051493/57594293-e42d3e00-7504-11e9-9fed-8081ed91aa5c.PNG)
+
+![Imgqwe3](https://user-images.githubusercontent.com/50051493/57594294-e4c5d480-7504-11e9-8e00-e2df091bd109.PNG)
+
+![Imgqwe4](https://user-images.githubusercontent.com/50051493/57594295-e4c5d480-7504-11e9-884c-b8e944c421d1.PNG)
+
+![Imgqwe5](https://user-images.githubusercontent.com/50051493/57594296-e4c5d480-7504-11e9-8eaf-598563648151.PNG)
+![Imgqwe6](https://user-images.githubusercontent.com/50051493/57594297-e4c5d480-7504-11e9-8b19-2d34b8f326bf.PNG)
+
+![Imgqwe7](https://user-images.githubusercontent.com/50051493/57594298-e4c5d480-7504-11e9-845d-d5c6334676fc.PNG)
+
+![Imgqwe8](https://user-images.githubusercontent.com/50051493/57594300-e4c5d480-7504-11e9-9847-581862e244eb.PNG)
+
+<br>
+<h2>PR.IP-1:  Se crean y se implementan líneas base de seguridad de los sistemas tecnologicos </h2>
+</br>
+
+Las compañías de E-Commerce debido a que manejan datos de tarjetas de crédito de sus clientes deben cumplir con estándares de seguridad altos que les permita reducir los riesgos de Ciberseguridad a niveles tolerables con el fin de evitar fraudes durante el procesamiento, almacenamiento o transmisión de datos confidenciales relacionados a la tarjeta. Para esto, se debe llevar a cabo la implementación de medidas de seguridad para todos los componentes del sistema que conforman dicho proceso, uno de los equipos, es el servidor de base de datos, específicamente el motor de base de datos, ya que es el lugar donde reposa la información de los datos de los tarjetahabientes, por lo que se debe evitar que la información sea interceptada o modificada. 
+A continuación, se expondrá la implementación de algunas medidas de seguridad basadas en el Benchmark “CIS Oracle MySQL Community Server 5.6” del CIS (Center for Internet Security) para minimizar las amenazas en el motor de base de datos MySQL Community Server.
+
+
+![ImgProy1](https://user-images.githubusercontent.com/50051493/57589520-1e3d1680-74ea-11e9-9936-8dcd66d27c77.PNG)
+
+
+<br>Los puntos que se definieron para el desarrollo de este control son los siguientes:</br>
+
+![ImgProy2](https://user-images.githubusercontent.com/50051493/57589521-1e3d1680-74ea-11e9-9d69-96e139eafa20.PNG)
+
+<br><h3>3.1 Asegurese que los parches de seguridad recientes son aplicados</h3></br>
+![ImgProy3](https://user-images.githubusercontent.com/50051493/57589522-1ed5ad00-74ea-11e9-970b-fcb1f1ac86d4.PNG)
+
+![ImgProy4](https://user-images.githubusercontent.com/50051493/57589523-1ed5ad00-74ea-11e9-8c67-cb92db402974.PNG)
+
+<br><h3>3.2 Asegurarese de que no esten instaladas bases de datos de ejemplos</h3></br>
+
+![ImgProy5](https://user-images.githubusercontent.com/50051493/57589524-1ed5ad00-74ea-11e9-821d-4e8a9b90f4b2.PNG)
+
+![ImgProy6](https://user-images.githubusercontent.com/50051493/57589525-1ed5ad00-74ea-11e9-9c6b-e295f0f6eda0.PNG)
+
+![ImgProy7](https://user-images.githubusercontent.com/50051493/57589526-1ed5ad00-74ea-11e9-802c-8c0186eeb146.PNG)
+
+![ImgProy8](https://user-images.githubusercontent.com/50051493/57589527-1f6e4380-74ea-11e9-9ee7-75b58051157a.PNG)
+
+<br><h3>3.4 Asegurese  de que el parametro 'local_infile' se encuentre deshabilitado</h3></br>
+
+![ImgProy9](https://user-images.githubusercontent.com/50051493/57589528-1f6e4380-74ea-11e9-95ab-7c33dd06b787.PNG)
+
+![ImgProy10](https://user-images.githubusercontent.com/50051493/57589529-1f6e4380-74ea-11e9-8eda-79f095a38115.PNG)
+
+![ImgProy11](https://user-images.githubusercontent.com/50051493/57589530-1f6e4380-74ea-11e9-8b94-a62f5f8d2128.PNG)
+
+<br><h3>3.5 Asegurese  de que 'Mysqld' no este iniciando con '--Skip-grant-tables'</h3></br>
+
+
+![ImgProy12](https://user-images.githubusercontent.com/50051493/57589531-2006da00-74ea-11e9-839b-d54325348de9.PNG)
+
+![ImgProy13](https://user-images.githubusercontent.com/50051493/57589532-2006da00-74ea-11e9-8c1e-f85f45f34e2f.PNG)
+
+![ImgProy14](https://user-images.githubusercontent.com/50051493/57589533-2006da00-74ea-11e9-8ccf-ca5dae140dfb.PNG)
+
+
+<br><h3>3.6 Asegurese de que '--Skip-symbolic-links' este habilitado</h3></br>
+![ImgProy15](https://user-images.githubusercontent.com/50051493/57589534-2006da00-74ea-11e9-9e51-e242ae1ab517.PNG)
+
+![ImgProy16](https://user-images.githubusercontent.com/50051493/57589535-2006da00-74ea-11e9-9ce1-0f566f391ee1.PNG)
+
+![ImgProy17](https://user-images.githubusercontent.com/50051493/57589536-2006da00-74ea-11e9-899a-a886026c9409.PNG)
+
+<br><h3>3.7 Asegurese de que el plugin 'Daemon-memchached' este deshabilitado</h3></br>
+
+![ImgProy18](https://user-images.githubusercontent.com/50051493/57589537-209f7080-74ea-11e9-8b71-21da394aeb83.PNG)
+
+![ImgProy19](https://user-images.githubusercontent.com/50051493/57589538-209f7080-74ea-11e9-85a9-4ac046959dd9.PNG)
+
+
+<br><h3>5.1 Asegurese de que 'log_error' no este vacio.<h3></br>
+
+![ImgProy20](https://user-images.githubusercontent.com/50051493/57589539-209f7080-74ea-11e9-9d5b-7bb82569a2f3.PNG)
+
+![ImgProy21](https://user-images.githubusercontent.com/50051493/57589540-209f7080-74ea-11e9-91e6-1dd33f405777.PNG)
+
+![ImgProy22](https://user-images.githubusercontent.com/50051493/57589541-209f7080-74ea-11e9-8b7c-39a1ef10ebbe.PNG)
+
+<br><h3>5.3 Asegurese de que 'log_warnings' tenga asigando el valor '2'.<h3></br>
+
+![ImgProy23](https://user-images.githubusercontent.com/50051493/57589542-209f7080-74ea-11e9-8ea7-ec920362ac82.PNG)
+
+![ImgProy24](https://user-images.githubusercontent.com/50051493/57589543-21380700-74ea-11e9-8b8f-ca6178c29159.PNG)
+
+![ImgProy25](https://user-images.githubusercontent.com/50051493/57589544-21380700-74ea-11e9-9716-3c608e42b60d.PNG)
+
+<br><h3>5.5 Asegurese de que 'log_raw' tenga asigando el valor 'OFF'.<h3></br>
+
+![ImgProy26](https://user-images.githubusercontent.com/50051493/57589545-21380700-74ea-11e9-80e6-dca3f1b47ca5.PNG)
+
+![ImgProy27](https://user-images.githubusercontent.com/50051493/57589546-21380700-74ea-11e9-9981-1d3854f6d2f9.PNG)
+
+![ImgProy28](https://user-images.githubusercontent.com/50051493/57589548-21380700-74ea-11e9-8f34-54e394f6363d.PNG)
+
+<br><h3>6.6 Asegurese de que este habilitada la politica de contraseñas.<h3></br>
+
+![ImgProy29](https://user-images.githubusercontent.com/50051493/57589549-21d09d80-74ea-11e9-8b3e-b75395e87153.PNG)
+
+![ImgProy30](https://user-images.githubusercontent.com/50051493/57589550-21d09d80-74ea-11e9-8127-43baee6e735a.PNG)
+
+![ImgProy31](https://user-images.githubusercontent.com/50051493/57589551-21d09d80-74ea-11e9-8121-2a2da4e2bc34.PNG)
+
+![ImgProy32](https://user-images.githubusercontent.com/50051493/57589552-21d09d80-74ea-11e9-8afd-2531e3b1e45a.PNG)
+
+
+
+
+
+
+
 <h2>REFERENCIAS </h2>
 <li>Gestión de Riesgos: ISO 31000:2018</li>
 <li>Gestión de Activos: ISO 27001:2013</li>
@@ -246,3 +543,5 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 <li>Marco Regulatorio:https://www.superfinanciera.gov.co/inicio/normativa-60706</li>
 <li>Seguridad en MySQL:https://dev.mysql.com/doc/refman/8.0/en/security-html</li>
 <li>Control de acceso MySql:https://dev.mysql.com/doc/refman/8.0/en/access-control.html</li>
+<li>Hardening -CIS-:https://www.cisecurity.org</li>
+<li>Verificación de Vulnerabilidades ESCUBA IMPERVA:https://www.imperva.com</li>
