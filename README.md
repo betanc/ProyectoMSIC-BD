@@ -360,6 +360,31 @@ Monitoreo de capacidad de la base de datos con el cliente SQL Community:
 
 ![monitoreocap](https://user-images.githubusercontent.com/48939055/57593312-797a0380-7500-11e9-95b4-3b32e6859efe.jpg)
 
+
+<br>
+<h2>PR.DS-2: Los datos en transito son protegidos </h2>
+</br>
+El cifrado de capa de sockets seguros (SSL) habilita la transmisión de datos cifrados a través de la red entre una instancia de MySql Server y una aplicación cliente.
+SSL es un protocolo para establecer un canal de comunicaciones seguro para evitar la interceptación de información esencial o confidencial por la red y otras comunicaciones de Internet. SSL permite al cliente y al servidor autenticar la identidad de cada uno. Después de autenticar a los participantes, SSL proporciona conexiones cifradas entre ellos para proteger la transmisión de los mensajes.
+El Controlador JDBC para MySqlL Comunity Server proporciona una infraestructura para habilitar y deshabilitar el cifrado en una conexión determinada según las propiedades de conexión especificadas por el usuario y la configuración del cliente y el servidor. El usuario puede especificar la ubicación del almacén de certificados y la contraseña, un nombre de host que se va a utilizar para validar el certificado y cuándo cifrar el canal de comunicaciones.
+Al habilitar el cifrado SSL se aumenta la seguridad de los datos que se transmiten a través de redes entre las instancias de MySql Community Server y aplicaciones. No obstante, también reduce el rendimiento.
+<br>A continuación, se muestra la evidencia de cómo se habilito el cifrado SSL en Mysql Comunity Server utilizando el Wizard de Mysql Workbench:</br>
+
+![Imgqwe1](https://user-images.githubusercontent.com/50051493/57594291-e42d3e00-7504-11e9-8b23-862a56e001b9.PNG)
+
+![Imgqwe2](https://user-images.githubusercontent.com/50051493/57594293-e42d3e00-7504-11e9-9fed-8081ed91aa5c.PNG)
+
+![Imgqwe3](https://user-images.githubusercontent.com/50051493/57594294-e4c5d480-7504-11e9-8e00-e2df091bd109.PNG)
+
+![Imgqwe4](https://user-images.githubusercontent.com/50051493/57594295-e4c5d480-7504-11e9-884c-b8e944c421d1.PNG)
+
+![Imgqwe5](https://user-images.githubusercontent.com/50051493/57594296-e4c5d480-7504-11e9-8eaf-598563648151.PNG)
+![Imgqwe6](https://user-images.githubusercontent.com/50051493/57594297-e4c5d480-7504-11e9-8b19-2d34b8f326bf.PNG)
+
+![Imgqwe7](https://user-images.githubusercontent.com/50051493/57594298-e4c5d480-7504-11e9-845d-d5c6334676fc.PNG)
+
+![Imgqwe8](https://user-images.githubusercontent.com/50051493/57594300-e4c5d480-7504-11e9-9847-581862e244eb.PNG)
+
 <br>
 <h2>PR.IP-1:  Se crean y se implementan líneas base de seguridad de los sistemas tecnologicos </h2>
 </br>
