@@ -356,6 +356,10 @@ Adicionalmente el motor de base de datos cuenta con virtualización lo cual perm
 
 ![diagrama arq5](https://user-images.githubusercontent.com/48939055/57588593-170f0c00-74dc-11e9-86b6-f52de59d36cb.jpg)
 
+Monitoreo de capacidad de la base de datos con el cliente SQL Community:
+
+![monitoreocap](https://user-images.githubusercontent.com/48939055/57593312-797a0380-7500-11e9-95b4-3b32e6859efe.jpg)
+
 <br>
 <h2>PR.IP-1:  Se crean y se implementan líneas base de seguridad de los sistemas tecnologicos </h2>
 </br>
