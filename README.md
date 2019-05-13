@@ -263,8 +263,9 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 
 <h2>Control ID.RA-3: Las amenazas, tanto internas como externas, están identificadas y documentadas.</h2>
 
-![97](https://user-images.githubusercontent.com/50051518/57596120-94537480-750e-11e9-8c58-890539a56c16.png)
 ![96](https://user-images.githubusercontent.com/50051518/57596121-94537480-750e-11e9-9c92-63c3e0392ebd.png)
+![97](https://user-images.githubusercontent.com/50051518/57596120-94537480-750e-11e9-8c58-890539a56c16.png)
+
 
 
 <h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
