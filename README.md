@@ -440,15 +440,22 @@ A continuación, se expondrá la implementación de algunas medidas de seguridad
 
 ![ImgProy17](https://user-images.githubusercontent.com/50051493/57589536-2006da00-74ea-11e9-899a-a886026c9409.PNG)
 
+<br><h3>3.7 Asegurese de que el plugin 'Daemon-memchached' este deshabilitado</h3></br>
+
 ![ImgProy18](https://user-images.githubusercontent.com/50051493/57589537-209f7080-74ea-11e9-8b71-21da394aeb83.PNG)
 
 ![ImgProy19](https://user-images.githubusercontent.com/50051493/57589538-209f7080-74ea-11e9-85a9-4ac046959dd9.PNG)
+
+
+<br><h3>5.1 Asegurese de que 'log_error' no este vacio.<h3></br>
 
 ![ImgProy20](https://user-images.githubusercontent.com/50051493/57589539-209f7080-74ea-11e9-9d5b-7bb82569a2f3.PNG)
 
 ![ImgProy21](https://user-images.githubusercontent.com/50051493/57589540-209f7080-74ea-11e9-91e6-1dd33f405777.PNG)
 
 ![ImgProy22](https://user-images.githubusercontent.com/50051493/57589541-209f7080-74ea-11e9-8b7c-39a1ef10ebbe.PNG)
+
+<br><h3>5.3 Asegurese de que 'log_warnings' tenga asigando el valor '2'.<h3></br>
 
 ![ImgProy23](https://user-images.githubusercontent.com/50051493/57589542-209f7080-74ea-11e9-8ea7-ec920362ac82.PNG)
 
