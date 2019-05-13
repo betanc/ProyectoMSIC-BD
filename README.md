@@ -463,11 +463,15 @@ A continuación, se expondrá la implementación de algunas medidas de seguridad
 
 ![ImgProy25](https://user-images.githubusercontent.com/50051493/57589544-21380700-74ea-11e9-9716-3c608e42b60d.PNG)
 
+<br><h3>5.5 Asegurese de que 'log_raw' tenga asigando el valor 'OFF'.<h3></br>
+
 ![ImgProy26](https://user-images.githubusercontent.com/50051493/57589545-21380700-74ea-11e9-80e6-dca3f1b47ca5.PNG)
 
 ![ImgProy27](https://user-images.githubusercontent.com/50051493/57589546-21380700-74ea-11e9-9981-1d3854f6d2f9.PNG)
 
 ![ImgProy28](https://user-images.githubusercontent.com/50051493/57589548-21380700-74ea-11e9-8f34-54e394f6363d.PNG)
+
+<br><h3>6.6 Asegurese de que este habilitada la politica de contraseñas.<h3></br>
 
 ![ImgProy29](https://user-images.githubusercontent.com/50051493/57589549-21d09d80-74ea-11e9-8b3e-b75395e87153.PNG)
 
@@ -477,9 +481,7 @@ A continuación, se expondrá la implementación de algunas medidas de seguridad
 
 ![ImgProy32](https://user-images.githubusercontent.com/50051493/57589552-21d09d80-74ea-11e9-8afd-2531e3b1e45a.PNG)
 
-![ImgProy33](https://user-images.githubusercontent.com/50051493/57589553-21d09d80-74ea-11e9-97f4-d3bf50716c23.PNG)
 
-![ImgProy34](https://user-images.githubusercontent.com/50051493/57589554-21d09d80-74ea-11e9-8ca9-574f986ce73d.PNG)
 
 
 
