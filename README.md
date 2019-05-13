@@ -339,6 +339,8 @@ A continuación, se expondrá la implementación de algunas medidas de seguridad
 
 ![ImgProy4](https://user-images.githubusercontent.com/50051493/57589523-1ed5ad00-74ea-11e9-8c67-cb92db402974.PNG)
 
+<br><h3>3.2 Asegurar que no esten instaladas bases de datos de ejemplos</h3></br>
+
 ![ImgProy5](https://user-images.githubusercontent.com/50051493/57589524-1ed5ad00-74ea-11e9-821d-4e8a9b90f4b2.PNG)
 
 ![ImgProy6](https://user-images.githubusercontent.com/50051493/57589525-1ed5ad00-74ea-11e9-9c6b-e295f0f6eda0.PNG)
@@ -346,6 +348,8 @@ A continuación, se expondrá la implementación de algunas medidas de seguridad
 ![ImgProy7](https://user-images.githubusercontent.com/50051493/57589526-1ed5ad00-74ea-11e9-802c-8c0186eeb146.PNG)
 
 ![ImgProy8](https://user-images.githubusercontent.com/50051493/57589527-1f6e4380-74ea-11e9-9ee7-75b58051157a.PNG)
+
+<br><h3>3.4 Asegurese  de que el parametro 'local_infile' se encuentre deshabilitado</h3></br>
 
 ![ImgProy9](https://user-images.githubusercontent.com/50051493/57589528-1f6e4380-74ea-11e9-95ab-7c33dd06b787.PNG)
 
