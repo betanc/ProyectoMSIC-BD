@@ -335,10 +335,10 @@ Adicionalmente el motor de base de datos cuenta con virtualización lo cual perm
 <br>
 <h2>PR.IP-1:  Se crean y se implementan líneas base de seguridad de los sistemas tecnologicos </h2>
 </br>
-<br>
+
 Las compañías de E-Commerce debido a que manejan datos de tarjetas de crédito de sus clientes deben cumplir con estándares de seguridad altos que les permita reducir los riesgos de Ciberseguridad a niveles tolerables con el fin de evitar fraudes durante el procesamiento, almacenamiento o transmisión de datos confidenciales relacionados a la tarjeta. Para esto, se debe llevar a cabo la implementación de medidas de seguridad para todos los componentes del sistema que conforman dicho proceso, uno de los equipos, es el servidor de base de datos, específicamente el motor de base de datos, ya que es el lugar donde reposa la información de los datos de los tarjetahabientes, por lo que se debe evitar que la información sea interceptada o modificada. 
 A continuación, se expondrá la implementación de algunas medidas de seguridad basadas en el Benchmark “CIS Oracle MySQL Community Server 5.6” del CIS (Center for Internet Security) para minimizar las amenazas en el motor de base de datos MySQL Community Server.
-</br>
+
 
 ![ImgProy1](https://user-images.githubusercontent.com/50051493/57589520-1e3d1680-74ea-11e9-9936-8dcd66d27c77.PNG)
 
@@ -347,12 +347,12 @@ A continuación, se expondrá la implementación de algunas medidas de seguridad
 
 ![ImgProy2](https://user-images.githubusercontent.com/50051493/57589521-1e3d1680-74ea-11e9-9d69-96e139eafa20.PNG)
 
-<br><h3>3.1 Asegurar que los parches de seguridad recientes son aplicados</h3></br>
+<br><h3>3.1 Asegurese que los parches de seguridad recientes son aplicados</h3></br>
 ![ImgProy3](https://user-images.githubusercontent.com/50051493/57589522-1ed5ad00-74ea-11e9-970b-fcb1f1ac86d4.PNG)
 
 ![ImgProy4](https://user-images.githubusercontent.com/50051493/57589523-1ed5ad00-74ea-11e9-8c67-cb92db402974.PNG)
 
-<br><h3>3.2 Asegurar que no esten instaladas bases de datos de ejemplos</h3></br>
+<br><h3>3.2 Asegurarese de que no esten instaladas bases de datos de ejemplos</h3></br>
 
 ![ImgProy5](https://user-images.githubusercontent.com/50051493/57589524-1ed5ad00-74ea-11e9-821d-4e8a9b90f4b2.PNG)
 
