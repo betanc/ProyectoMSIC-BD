@@ -336,7 +336,7 @@ A manera de ejemplo, se muestran los privilegios configurados para el usuario "p
 
 ![au verificacion roles 2](https://user-images.githubusercontent.com/50051421/57588159-f8a61200-74d5-11e9-8672-15c952218740.png)
 
-<h2>PR.DS-1: Los datos en reposo están protegidos<h2>
+<h2>PR.DS-1: Los datos en reposo están protegidos</h2>
  
 Teniendo en cuenta que la base de datos aloja datos sensibles, como por ejemplo información de tarjetas de crédito, password, datos médicos e informacion personal, con nivel alto de valor para el negocio, es crucialmente importante que esta información no se encuentre en texto plano, ya que se expone y facilita innecesariamente a un cibercriminal su labor en el caso de que ocurra un incidente de seguridad.
 
@@ -351,9 +351,6 @@ MySQL provee la capacidad de cifrar la información con el algoritmo de AES. Se 
 ![encript](https://user-images.githubusercontent.com/50051421/57595938-87825100-750d-11e9-8e46-dcf7edb19e6a.png)
 
 El cifrado de bases de datos es una buena práctica para prevenir y protegerse del robo de información, de posibles malas configuraciones o ataques informáticos.
-
-
-
 
 <h2> Control PR.DS-3: Los activos se administran formalmente mediante un proceso de eliminación, transferencias y disposición</h2>
 
