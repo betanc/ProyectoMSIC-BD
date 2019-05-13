@@ -334,6 +334,7 @@ A continuación, se expondrá la implementación de algunas medidas de seguridad
 
 ![ImgProy2](https://user-images.githubusercontent.com/50051493/57589521-1e3d1680-74ea-11e9-9d69-96e139eafa20.PNG)
 
+<br><h1>3.1 Asegurar que los parches de seguridad recientes son aplicados<h1></br>
 ![ImgProy3](https://user-images.githubusercontent.com/50051493/57589522-1ed5ad00-74ea-11e9-970b-fcb1f1ac86d4.PNG)
 
 ![ImgProy4](https://user-images.githubusercontent.com/50051493/57589523-1ed5ad00-74ea-11e9-8c67-cb92db402974.PNG)
