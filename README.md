@@ -249,11 +249,22 @@ A continuación se presentan los requisitos legales y reglamentarios relacionado
 ![7](https://user-images.githubusercontent.com/50051518/57588587-0eb6d100-74dc-11e9-98bd-0653a8dcdda3.png)
 ![8](https://user-images.githubusercontent.com/50051518/57588589-0eb6d100-74dc-11e9-8692-b3201d19b43d.png)
 ![9](https://user-images.githubusercontent.com/50051518/57588582-0d85a400-74dc-11e9-9891-e0ea8bca9a77.png)
+
 <h2>Control ID.RA-2: La inteligencia sobre amenazas cibernéticas se recibe de foros y fuentes de intercambio de información.</h2>
+
+
+![91](https://user-images.githubusercontent.com/50051518/57596177-e5fbff00-750e-11e9-9d35-c9d873f3f638.png)
+![92](https://user-images.githubusercontent.com/50051518/57596178-e5fbff00-750e-11e9-9474-24e124977eee.png)
+![93](https://user-images.githubusercontent.com/50051518/57596179-e5fbff00-750e-11e9-913c-8823d74e5c89.png)
+![94](https://user-images.githubusercontent.com/50051518/57596180-e5fbff00-750e-11e9-89bb-f90691f81faf.png)
+![95](https://user-images.githubusercontent.com/50051518/57596181-e6949580-750e-11e9-97f9-90586eeee80a.png)
+
+
 
 <h2>Control ID.RA-3: Las amenazas, tanto internas como externas, están identificadas y documentadas.</h2>
 
-
+![97](https://user-images.githubusercontent.com/50051518/57596120-94537480-750e-11e9-8c58-890539a56c16.png)
+![96](https://user-images.githubusercontent.com/50051518/57596121-94537480-750e-11e9-9c92-63c3e0392ebd.png)
 
 
 <h2> Control ID.RA-4: Se identifican potenciales impactos y probabilidades sobre el negocio</h2>
@@ -508,3 +519,5 @@ A continuación, se expondrá la implementación de algunas medidas de seguridad
 <li>Marco Regulatorio:https://www.superfinanciera.gov.co/inicio/normativa-60706</li>
 <li>Seguridad en MySQL:https://dev.mysql.com/doc/refman/8.0/en/security-html</li>
 <li>Control de acceso MySql:https://dev.mysql.com/doc/refman/8.0/en/access-control.html</li>
+<li>Hardening -CIS-:https://www.cisecurity.org</li>
+<li>Verificación de Vulnerabilidades ESCUBA IMPERVA:https://www.imperva.com</li>
